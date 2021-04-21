@@ -10,18 +10,12 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { DocumentsAndLegalServicesComponent } from './documents-and-legal-services/documents-and-legal-services.component';
-import { QuestionForLawyerComponent } from './question-for-lawyer/question-for-lawyer.component';
 import { LegalGuidesComponent } from './legal-guides/legal-guides.component';
 import { FaqComponent } from './faq/faq.component';
-import { LawyersCharterComponent } from './lawyers-charter/lawyers-charter.component';
-import { BusinessCreationComponent } from './business-creation/business-creation.component';
-import { AssociationCreationComponent } from './association-creation/association-creation.component';
-import { CommercialContractsComponent } from './commercial-contracts/commercial-contracts.component';
-import { LeaseContractsComponent } from './lease-contracts/lease-contracts.component';
-import { EmploymentContractsComponent } from './employment-contracts/employment-contracts.component';
 import { ProfessionalSolutionComponent } from './professional-solution/professional-solution.component';
 import { ContactExpertFormComponent } from './professional-solution/contact-expert-form/contact-expert-form.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { TarifsComponent } from './tarifs/tarifs.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -33,18 +27,12 @@ import { AboutUsComponent } from './about-us/about-us.component';
     LegalNoticeComponent,
     PrivacyPolicyComponent,
     DocumentsAndLegalServicesComponent,
-    QuestionForLawyerComponent,
     LegalGuidesComponent,
     FaqComponent,
-    LawyersCharterComponent,
-    BusinessCreationComponent,
-    AssociationCreationComponent,
-    CommercialContractsComponent,
-    LeaseContractsComponent,
-    EmploymentContractsComponent,
     ProfessionalSolutionComponent,
     ContactExpertFormComponent,
-    AboutUsComponent
+    TarifsComponent,
+    DemoComponent
   ],
   imports: [PaperlabsSharedModule, RouterModule.forChild(userRoutes)]
 })
