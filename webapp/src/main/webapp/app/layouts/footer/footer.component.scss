@@ -18,8 +18,8 @@ a:hover {
 }
 
 .pap-footer-title {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: bold;
   background-repeat: no-repeat;
   background-size: 24px;
   display: -webkit-flex;
@@ -29,8 +29,10 @@ a:hover {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   color: #1400c3;
+  line-height: 1;
+  margin-top: 0;
 }
 
 .pap-card {
@@ -52,8 +54,7 @@ fa-icon {
   margin: 0;
   padding: 0;
   list-style: none;
-  line-height:3;
-  
+  line-height: 3;
 }
 
 .pap-footer-item {
@@ -62,7 +63,7 @@ fa-icon {
 
 .pap-footer-item,
 .pap-footer-link {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: -9px;
   font-weight: normal;
   text-decoration: none;
@@ -71,7 +72,7 @@ fa-icon {
   color: #1400c3;
 }
 .pap-footer-sections {
-  width: 100%;
+  width: 160%;
 }
 
 .pap-footer-section {
