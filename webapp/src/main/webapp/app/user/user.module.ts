@@ -16,6 +16,7 @@ import { ProfessionalSolutionComponent } from './professional-solution/professio
 import { ContactExpertFormComponent } from './professional-solution/contact-expert-form/contact-expert-form.component';
 import { TarifsComponent } from './tarifs/tarifs.component';
 import { DemoComponent } from './demo/demo.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { DemoComponent } from './demo/demo.component';
     ProfessionalSolutionComponent,
     ContactExpertFormComponent,
     TarifsComponent,
-    DemoComponent
+    DemoComponent,
+    AboutUsComponent
   ],
   imports: [PaperlabsSharedModule, RouterModule.forChild(userRoutes)]
 })
