@@ -10,6 +10,7 @@ import { teamRoute } from 'app/user/team/team.route';
 import { tarifsRoute } from 'app/user/tarifs/tarifs.route';
 import { termsAndConditionsRoute } from 'app/user/terms-and-conditions/terms-and-conditions.route';
 import { professionalSolutionRoute } from 'app/user/professional-solution/professional-solution.route';
+import { aboutRoute } from './about-us/about-us.route';
 
 const USER_ROUTES = [
   howItWorksRoute,
@@ -22,7 +23,8 @@ const USER_ROUTES = [
   teamRoute,
   tarifsRoute,
   termsAndConditionsRoute,
-  professionalSolutionRoute
+  professionalSolutionRoute,
+  aboutRoute
 ];
 
 export const userRoutes: Routes = [
