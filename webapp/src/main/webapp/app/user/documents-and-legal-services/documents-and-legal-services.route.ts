@@ -5,6 +5,6 @@ export const documentsAndLegalServicesRoute: Route = {
   path: 'documents-and-legal-services',
   component: DocumentsAndLegalServicesComponent,
   data: {
-    pageTitle: 'paperlabsApp.documentsAndLegalServices.title'
+    pageTitle: 'paperlabsApp.documents-and-legal-services.title'
   }
 };

@@ -2,7 +2,6 @@ import { Routes } from '@angular/router';
 import { legalDocumentDescriptionRoute } from 'app/user/legal-document-description/legal-document-description.route';
 import { howItWorksRoute } from 'app/user/how-it-works/how-it-works.route';
 import { contactRoute } from 'app/user/contact/contact.route';
-import { demoRoute } from 'app/user/demo/demo.route';
 import { faqRoute } from 'app/user/faq/faq.route';
 import { legalGuidesRoute } from 'app/user/legal-guides/legal-guides.route';
 import { legalNoticeRoute } from 'app/user/legal-notice/legal-notice.route';
@@ -12,11 +11,11 @@ import { tarifsRoute } from 'app/user/tarifs/tarifs.route';
 import { termsAndConditionsRoute } from 'app/user/terms-and-conditions/terms-and-conditions.route';
 import { professionalSolutionRoute } from 'app/user/professional-solution/professional-solution.route';
 import { aboutRoute } from './about-us/about-us.route';
+import { documentsAndLegalServicesRoute } from './documents-and-legal-services/documents-and-legal-services.route';
 
 const USER_ROUTES = [
   howItWorksRoute,
   contactRoute,
-  demoRoute,
   legalDocumentDescriptionRoute,
   faqRoute,
   legalGuidesRoute,
@@ -26,7 +25,8 @@ const USER_ROUTES = [
   tarifsRoute,
   termsAndConditionsRoute,
   professionalSolutionRoute,
-  aboutRoute
+  aboutRoute,
+  documentsAndLegalServicesRoute
 ];
 
 export const userRoutes: Routes = [
