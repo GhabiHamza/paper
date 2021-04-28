@@ -76,7 +76,7 @@
         *ngIf="getHtmlInputElement('input_prenom_personne_morale_etrangere_debiteur').value !== '' ">{{getHtmlInputElement('input_prenom_personne_morale_etrangere_debiteur').value}}</span>dûment
     habilité(e) à l’effet des présentes.
 </div>
-    <p> (Ci-après le « <strong> Débiteur </strong> »). </p>
+    <p class="op-flow"> (Ci-après le « <strong> Débiteur </strong> »). </p>
     
     <p> <strong>   Débiteur reconnait être redevable envers : </strong>  </p>
     
@@ -165,8 +165,8 @@
     </div>
     
     
-    <P>   (Ci-après le « <strong> Créancier </strong> ») </P>
-    <P>  De la somme de </P>
+    <P class="op-flow">   (Ci-après le « <strong> Créancier </strong> ») </P>
+    <P class="op-flow">  De la somme de </P>
     <div *ngIf="getHtmlInputElement('input_dinars_tunisien').checked">
         <span *ngIf="getHtmlInputElement('input_dinars_tunisien_montant_en_lettres').value !== '' ">{{getHtmlInputElement('input_dinars_tunisien_montant_en_lettres').value}}</span>, (<span *ngIf="getHtmlInputElement('input_dinars_tunisien_montant_en_chiffres').value !== '' ">{{getHtmlInputElement('input_dinars_tunisien_montant_en_chiffres').value}}</span>) Dinars .
        </div>
@@ -177,7 +177,7 @@
          soit la contre-valeur en Dinars de <span *ngIf="getHtmlInputElement('input_devise_etrangere_montant_en_lettres_1').value !== '' ">{{getHtmlInputElement('input_devise_etrangere_montant_en_lettres_1').value}}</span> (<span *ngIf="getHtmlInputElement('input_devise_etrangere_montanten_chiffres_1').value !== '' ">{{getHtmlInputElement('input_devise_etrangere_montanten_chiffres_1').value}}</span>), .
          
       </div>
-     <P> , montant du prêt que le Créancier a consenti le <span *ngIf="getHtmlInputElement('input_date_creancier').value !== '' ">{{getHtmlInputElement('input_date_creancier').value}}</span> . </P>
+     <P class="op-flow"> , montant du prêt que le Créancier a consenti le <span *ngIf="getHtmlInputElement('input_date_creancier').value !== '' ">{{getHtmlInputElement('input_date_creancier').value}}</span> . </P>
     
      <div *ngIf="getHtmlInputElement('input_par_tranche').checked">
     Le remboursement du montant du prêt se fera en une seule fois au plus tard le <span *ngIf="getHtmlInputElement('input_date_par_tranche').value !== '' ">{{getHtmlInputElement('input_date_par_tranche').value}}</span>

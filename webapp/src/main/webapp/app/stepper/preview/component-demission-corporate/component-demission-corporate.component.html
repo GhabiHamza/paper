@@ -15,7 +15,7 @@
          de nationalité <span *ngIf="getHtmlInputElement('input_nationalité_dimission').value !== '' ">{{getHtmlInputElement('input_nationalité_dimission').value}}</span>, titulaire du passeport n° <span *ngIf="getHtmlInputElement('input_num_passport_représentant_dimission').value !== '' ">{{getHtmlInputElement('input_num_passport_représentant_dimission').value}}</span>, valide jusqu’au <span *ngIf="getHtmlInputElement('input_date_expiration_passport_dimission').value !== '' ">{{getHtmlInputElement('input_date_expiration_passport_dimission').value}}</span>, demeurant au <span *ngIf="getHtmlInputElement('input_adresse_employe_et_dimission').value !== '' ">{{getHtmlInputElement('input_adresse_employe_et_dimission').value}}</span>. </p></div>
            <!---------------------------------------------------------->
     
-    employé auprès de
+    <p class="op-flow">employé auprès de</p>
     <div *ngIf="getHtmlInputElement('input_employeur_physique_dimission').checked">
     <p> <span *ngIf="getHtmlInputElement('input_nom_employeur_dimission').value !== '' ">{{getHtmlInputElement('input_nom_employeur_dimission').value}}</span>   <span *ngIf="getHtmlInputElement('input_prenom_employeur_dimission').value !== '' ">{{getHtmlInputElement('input_prenom_employeur_dimission').value}}</span> </p></div>
     
@@ -23,9 +23,9 @@
     <div *ngIf="getHtmlInputElement('input_employeur_morale_dimission').checked">
     <p>  <span *ngIf="getHtmlInputElement('input_denomination_dimission').value !== '' ">{{getHtmlInputElement('input_denomination_dimission').value}}</span>, dont le siège social est au <span *ngIf="getHtmlInputElement('input_adresse_siege_social_dimission_dimission').value !== '' ">{{getHtmlInputElement('input_adresse_siege_social_dimission_dimission').value}}</span> </p></div>
     
-    <p>En tant que <span *ngIf="getHtmlInputElement('input_fonction_employe_dimission').value !== '' ">{{getHtmlInputElement('input_fonction_employe_dimission').value}}</span>, donne spontanément par la présente, de façon ferme, irrévocable et définitive, ma démission des fonctions que j'occupais au sein de ladite société, et ce, pour des raisons personnelles.</p>
+    <p class="op-flow">En tant que <span *ngIf="getHtmlInputElement('input_fonction_employe_dimission').value !== '' ">{{getHtmlInputElement('input_fonction_employe_dimission').value}}</span>, donne spontanément par la présente, de façon ferme, irrévocable et définitive, ma démission des fonctions que j'occupais au sein de ladite société, et ce, pour des raisons personnelles.</p>
     
-    <p> A cet effet, je souhaiterais que ma démission soit effective à compter du <span *ngIf="getHtmlInputElement('input_date_demission').value !== '' ">{{getHtmlInputElement('input_date_demission').value}}</span>.</p>
+    <p class="op-flow"> A cet effet, je souhaiterais que ma démission soit effective à compter du <span *ngIf="getHtmlInputElement('input_date_demission').value !== '' ">{{getHtmlInputElement('input_date_demission').value}}</span>.</p>
     
     <p> Date______________________</p>
     
