@@ -1,20 +1,5 @@
 {
   "workflow": [ 
-       {
-      "inputId": "input_nature_employe_tunisien",
-      "valuesConstraints": [
-        {
-          "value": "De nationalité tunisienne",
-          "constraints": [
-            {
-              "elementId": "bloc_tunisien",
-              "visibility": true
-            }
-          ]
-        }
-      ]
-    },
-  
   {
       "inputId": "input_nature_employe_etrange",
       "valuesConstraints": [
@@ -28,7 +13,22 @@
           ]
         }
       ]
+    },   
+    {
+      "inputId": "input_nature_employe_tunisien",
+      "valuesConstraints": [
+        {
+          "value": "De nationalité tunisienne",
+          "constraints": [
+            {
+              "elementId": "bloc_tunisien",
+              "visibility": true
+            }
+          ]
+        }
+      ]
     },
+	 
 
 	
 	{

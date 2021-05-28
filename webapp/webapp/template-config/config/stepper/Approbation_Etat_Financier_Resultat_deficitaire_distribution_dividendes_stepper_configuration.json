@@ -4,7 +4,7 @@
       "id": "step_informations_sur_lassemble",
       "title": "Informations sur l'assemblée",
       "description": "",
-      "blocs": ["bloc_details_assemblé","bloc_question_8","bloc_ass",
+      "blocs": ["bloc_details_assemblé","bloc_question_8",
 	  
 	  
 	  "bloc_question_10_phy_10_1",
@@ -85,15 +85,11 @@
       "visibility": true
     },
   
-  {"id": "bloc_question_8","title": "Est-ce que le gérant préside l’assemblée ?","description": "","inputs": ["input_question_8_oui","input_question_8_non","input_question_8_nom_prenom"],"visibility": true},
-  
-  
-  {"id": "bloc_ass","title": "","description": "","inputs": ["input_ass"],"visibility": true},
-  
+  {"id": "bloc_question_8","title": "Est-ce que le gérant préside l’assemblée ?","description": "","inputs": ["input_question_8_non","input_question_8_nom_prenom"],"visibility": true},
   
   {
 	"id": "bloc_question_10_phy_10_1",
-	"title": "",
+	"title": "Nombre d'associés présents:",
 	"description": "",
     "inputs": ["input_question_10_phy","input_question_10_1"],
 	"visibility": true
@@ -272,7 +268,7 @@
       "title": "Est-ce que la société a un commissaire aux comptes ?",
       "description": "",
       "inputs": [
-	    "input_question_11_non",
+	   
 	    "input_question_11_oui"
 			],
       "visibility": true
@@ -296,7 +292,7 @@
     },
 	
 	
-  {"id": "bloc_cacher_12","title": "","description": "","inputs": ["input_cacher_12"],"visibility": true},
+  {"id": "bloc_cacher_12","title": "Autre(s) personne(s) présente(s):","description": "","inputs": ["input_cacher_12"],"visibility": true},
   
   {"id": "bloc_question_12","title": "","description": "","inputs": ["input_question_12"],"visibility": true},
   {"id": "bloc_question_12_1","title": "Autre personne présente 1","description": "","inputs": ["input_nom_prénom_12_1","input_qestion_12_1"],"visibility": false},
@@ -306,7 +302,7 @@
   {"id": "bloc_question_12_5","title": "Autre personne présente 5","description": "","inputs": ["input_nom_prénom_12_5","input_qestion_12_5"],"visibility": false},
   
   
-  {"id": "bloc_question_13","title": "Est-ce que les associés présent ou représentés représentent plus de 50% du capital social de la société ?","description": "","inputs": ["input_qestion_13_oui","input_qestion_13_non"],"visibility": true},
+  {"id": "bloc_question_13","title": "Est-ce que les associés présent ou représentés représentent plus de 50% du capital social de la société ?","description": "","inputs": ["input_qestion_13_oui"],"visibility": true},
   
 	{
       "id": "bloc_14_15_16_17_18_19",
@@ -467,31 +463,10 @@
       "visibility": true
     },
 	
-
-	
-	{"id": "input_question_8_oui","type": "checkbox","description": "","name": "","label": "oui","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_8_oui"],"true":[]},"visibility": true},
-	
-	
-	{"id": "input_question_8_non","type": "checkbox","description": "","name": "","label": "non","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_8_non"],"true":[]},"visibility": true},
+	{"id": "input_question_8_non","type": "checkbox","description": "","name": "","label": "Oui/Non","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_8_non"],"true":["bookmark_question_8_oui"]},"visibility": true},
 	
 	
 	{"id": "input_question_8_nom_prenom","type": "text","description": "","name": "","label": "Nom et prénom de la personne qui préside l'assemblée","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text":["bookmark_question_8_nom_prenom","bookmark_question_8_nom_prenom_1"]},"visibility": false},
-	
-  
-  {"id": "input_ass","type": "select_input_generator","description": "","name": "input_ass",
-  "label": "Nombre d'associés présents","placeHolder": "",
-  "help": "","options": ["1","2","3", "4", "5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27",
-  "28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],"value": "",
-  "bookmarkIdPerValue": {"1": ["Autre_ass_2"],"2": ["Autre_ass_2"],"3": ["Autre_ass_2"],"4": ["Autre_ass_2"],"5": ["Autre_ass_2"],
-                         "6": ["Autre_ass_2"],"7": ["Autre_ass_2"],"8": ["Autre_ass_2"],"9": ["Autre_ass_2"],"10": ["Autre_ass_2"],
-						 "11": ["Autre_ass_2"],"12": ["Autre_ass_2"],"13": ["Autre_ass_2"],"14": ["Autre_ass_2"],"15": ["Autre_ass_2"],
-						 "16": ["Autre_ass_2"],"17": ["Autre_ass_2"],"18": ["Autre_ass_2"],"19": ["Autre_ass_2"],"20": ["Autre_ass_2"],
-						 "21": ["Autre_ass_2"],"22": ["Autre_ass_2"],"23": ["Autre_ass_2"],"24": ["Autre_ass_2"],"25": ["Autre_ass_2"],
-						 "26": ["Autre_ass_2"],"27": ["Autre_ass_2"],"28": ["Autre_ass_2"],"29": ["Autre_ass_2"],"30": ["Autre_ass_2"],
-						 "31": ["Autre_ass_2"],"32": ["Autre_ass_2"],"33": ["Autre_ass_2"],"34": ["Autre_ass_2"],"35": ["Autre_ass_2"],
-						 "36": ["Autre_ass_2"],"37": ["Autre_ass_2"],"38": ["Autre_ass_2"],"39": ["Autre_ass_2"],"40": ["Autre_ass_2"],
-						 "41": ["Autre_ass_2"],"42": ["Autre_ass_2"],"43": ["Autre_ass_2"],"44": ["Autre_ass_2"],"45": ["Autre_ass_2"],
-						 "46": ["Autre_ass_2"],"47": ["Autre_ass_2"],"48": ["Autre_ass_2"],"49": ["Autre_ass_2"],"50": ["Autre_ass_2"]},"visibility": true},
 						   
   {
 	"id": "input_question_10_phy",
@@ -512,7 +487,7 @@
 	
 	{
 	"id": "input_question_10_1","type": "select_input_generator","description": "","name": "input_question_10_1",
-	  "label": "Nombre d'associés présents","placeHolder": "",
+	  "label": "Nombre d'associés physique","placeHolder": "",
 	  "help": "","options": ["0","1","2","3", "4", "5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27",
 	  "28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],"value": "",
 	  "bookmarkIdPerValue": {"0":  ["bookmark_question_10_1"],"1":  ["bookmark_question_10_1"],"2":  ["bookmark_question_10_1"],"3":  ["bookmark_question_10_1"],"4":  ["bookmark_question_10_1"],"5":  ["bookmark_question_10_1"],
@@ -549,7 +524,7 @@
 	
 		{
 	"id": "input_question_10_2","type": "select_input_generator","description": "","name": "input_question_10_2",
-	  "label": "Nombre d'associés présents","placeHolder": "",
+	  "label": "Nombre d'associés morale","placeHolder": "",
 	  "help": "","options": ["0","1","2","3", "4", "5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27",
 	  "28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],"value": "",
 	  "bookmarkIdPerValue": {"0":  ["bookmark_question_10_2"],"1": ["bookmark_question_10_2"],"2": ["bookmark_question_10_2"],"3": ["bookmark_question_10_2"],"4": ["bookmark_question_10_2"],"5": ["bookmark_question_10_2"],
@@ -727,9 +702,8 @@
   
     
 	
-	{"id": "input_question_11_non","type": "checkbox","description": "","name": "","label": "Non","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_11_non"],"true":[]},"visibility": true},
 
-	{"id": "input_question_11_oui","type": "checkbox","description": "","name": "","label": "Oui","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_11_oui","bookmark_question_11_oui_1","bookmark_question_11_oui_2","bookmark_question_11_oui_3"],"true":[]},"visibility": true},
+	{"id": "input_question_11_oui","type": "checkbox","description": "","name": "","label": "Non/Oui","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_11_oui","bookmark_question_11_oui_1","bookmark_question_11_oui_2","bookmark_question_11_oui_3"],"true":["bookmark_question_11_non"]},"visibility": true},
 
 
 	
@@ -744,7 +718,7 @@
 	
 
   
-  {"id": "input_cacher_12","type": "checkbox","description": "","name": "","label": "Autre(s) personne(s) présente(s)", "placeHolder": "","help": "","options": [],"value": "",
+  {"id": "input_cacher_12","type": "checkbox","description": "","name": "","label": "personne(s) présente(s)", "placeHolder": "","help": "","options": [],"value": "",
     "bookmarkIdPerValue": {"false": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"],"true": []},"visibility": true},
 	
   {"id": "input_question_12","type": "select_input_generator","description": "","name": "input_question_12",
@@ -769,11 +743,10 @@
   
   
   
-  {"id": "input_qestion_13_oui","type": "checkbox","description": "","name": "","label": "oui", "placeHolder": "","help": "","options": [],"value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_qestion_13_oui"],"true": []},"visibility": true},
+  {"id": "input_qestion_13_oui","type": "checkbox","description": "","name": "","label": "Non/Oui", "placeHolder": "","help": "","options": [],"value": "",
+      "bookmarkIdPerValue": {"false": ["bookmark_qestion_13_oui"],"true": ["bookmark_qestion_13_non"]},"visibility": true},
 	  
- {"id": "input_qestion_13_non","type": "checkbox","description": "","name": "","label": "non", "placeHolder": "","help": "","options": [],"value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_qestion_13_non"],"true": []},"visibility": true},
+ 
   
     
 	 
@@ -896,9 +869,6 @@
   {"bookmarkId": "bookmark_question_8_nom_prenom","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
   {"bookmarkId": "bookmark_question_8_nom_prenom_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
 
-  {"bookmarkId": "Autre_ass_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
- 
-    
 	{"bookmarkId": "bookmark_ques_10_phy","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
 	
    {"bookmarkId": "bookmark_question_10_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},

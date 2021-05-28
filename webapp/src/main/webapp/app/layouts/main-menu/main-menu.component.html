@@ -14,11 +14,11 @@
 
 
                 <!---------------------------------- NOS DOCUMENT  ----------------------------------------->
-                <li ngbDropdown class="nav-item dropdown pointer  " display="dynamic" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                    <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="entity-menu">
+                <li  class="nav-item dropdown pointer  "  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                    <a class="nav-link dropdown-toggle"  href="javascript:void(0);" id="entity-menu">
                         <span [matMenuTriggerFor]="alldocs" class="item">Nos documents</span></a>
 
-
+                    
                     <mat-menu #alldocs="matMenu" xPosition="before" class="fixedmenu1">
 
                         <a mat-menu-item [matMenuTriggerFor]="docpop" class="docs1">Services populaires</a>
@@ -30,6 +30,7 @@
 
 
                     </mat-menu>
+               
                     <mat-menu #docpop="matMenu" class="fixedmenu">
                         <a>
                             <ul>

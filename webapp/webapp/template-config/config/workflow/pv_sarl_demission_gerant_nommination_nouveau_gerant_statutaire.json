@@ -592,21 +592,8 @@
 
 				]
 			}]
-		},
-		{
-			"inputId": "input_reponse_remunere_non",
-			"valuesConstraints": [{
-				"value": "true",
-				"constraints": [
-
-					{
-						"elementId": "input_reponse_remuneration_brute",
-						"visibility": false
-					}
-
-				]
-			}]
 		}
+		
 
 	]
 }

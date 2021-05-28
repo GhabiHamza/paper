@@ -2,7 +2,7 @@
   "workflow": [
  
  {
-      "inputId": "input_question_8_non",
+      "inputId": "input_question_8",
       "valuesConstraints": [
         {
           "value": "true",
@@ -17,7 +17,7 @@
       ]
     },
 	{
-      "inputId": "input_question_8_non",
+      "inputId": "input_question_8",
       "valuesConstraints": [
         {
           "value": "false",
@@ -443,14 +443,25 @@
     },
 	
 	{
-      "inputId": "input_question_11_oui",
+      "inputId": "input_question_11",
       "valuesConstraints": [
         {
           "value": "true",
           "constraints": [
             
 			{
-              "elementId": "bloc_commissaire",
+              "elementId": "input_question_personne_physique",
+              "visibility": true
+            }
+			
+          ]
+        },
+		{
+          "value": "true",
+          "constraints": [
+            
+			{
+              "elementId": "input_question_personne_morale",
               "visibility": true
             }
 			
@@ -459,14 +470,25 @@
       ]
     },
 	{
-      "inputId": "input_question_11_oui",
+      "inputId": "input_question_11",
       "valuesConstraints": [
         {
           "value": "false",
           "constraints": [
             
 			{
-              "elementId": "bloc_commissaire",
+              "elementId": "input_question_personne_physique",
+              "visibility": false
+            }
+			
+          ]
+        },
+		{
+          "value": "false",
+          "constraints": [
+            
+			{
+              "elementId": "input_question_personne_morale",
               "visibility": false
             }
 			
@@ -474,6 +496,7 @@
         }
       ]
     },
+	
 	
 	
 	{
@@ -489,13 +512,8 @@
             }
 			
           ]
-        }
-      ]
-    },
-	
-	{
-      "inputId": "input_question_personne_physique",
-      "valuesConstraints": [
+        },
+    
         {
           "value": "false",
           "constraints": [
@@ -628,6 +646,7 @@
         }
       ]
     }
+	
 	
 	
   ]}

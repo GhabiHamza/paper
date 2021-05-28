@@ -85,8 +85,8 @@
       "inputs": [
 	    
 		"input_reponse_remunere_oui",
-		"input_reponse_remuneration_brute",
-		"input_reponse_remunere_non"
+		"input_reponse_remuneration_brute"
+		
 		],
       "visibility": true
     },
@@ -120,33 +120,18 @@
       "type": "checkbox",
       "description": "",
       "name": "",
-      "label": "Oui",
+      "label": "Non/Oui",
       "placeHolder": "",
       "help": "",
       "options": [],
       "value": "",
       "bookmarkIdPerValue": {
         "false": ["remunere_oui"],
-        "true": []
+        "true": ["remunere_non"]
       },
       "visibility": true
 	  },
-  {
-      "id": "input_reponse_remunere_non",
-      "type": "checkbox",
-      "description": "",
-      "name": "",
-      "label": "Non",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {
-        "false": ["remunere_non"],
-        "true": []
-      },
-      "visibility": true
-	  },
+  
   
   {"id": "input_reponse_oui_num_cin","type": "number","description": "",
   "name": "input_reponse_oui_num_cin","label": "Numéro de carte d’identité nationale du nouveau gérant","placeHolder": "","help": "","options": [],

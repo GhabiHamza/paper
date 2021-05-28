@@ -113,7 +113,7 @@
   "bookmarkIdPerValue": {"0":["autre_per_2"],"1":["autre_per_2"], "2": ["autre_per_2"],"3": ["autre_per_2"],"4": ["autre_per_2"],"5": ["autre_per_2"]},"visibility": false},
 						   
 	{"id": "input_cacher_11","type": "checkbox","description": "","name": "","label": "Autre(s) personne(s) présente(s)", "placeHolder": "","help": "il peut s’agir du nouveau gérant","options": [],"value": "",
-      "bookmarkIdPerValue": {"false": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"],"true": []},"visibility": true},
+      "bookmarkIdPerValue": {"false": ["cacher_cacher_2"],"true": []},"visibility": true},
 	  
 	  
 	  

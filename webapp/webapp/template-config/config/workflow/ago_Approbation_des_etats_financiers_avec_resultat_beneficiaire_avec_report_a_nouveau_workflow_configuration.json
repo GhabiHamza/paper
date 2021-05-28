@@ -2,7 +2,7 @@
   "workflow": [
  
  {
-      "inputId": "input_question_8_non",
+      "inputId": "input_question_8",
       "valuesConstraints": [
         {
           "value": "true",
@@ -17,7 +17,7 @@
       ]
     },
 	{
-      "inputId": "input_question_8_non",
+      "inputId": "input_question_8",
       "valuesConstraints": [
         {
           "value": "false",
@@ -443,7 +443,7 @@
     },
 	
 	{
-      "inputId": "input_question_11_oui",
+      "inputId": "input_question_11",
       "valuesConstraints": [
         {
           "value": "true",
@@ -459,7 +459,7 @@
       ]
     },
 	{
-      "inputId": "input_question_11_oui",
+      "inputId": "input_question_11",
       "valuesConstraints": [
         {
           "value": "false",

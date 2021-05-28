@@ -101,129 +101,11 @@
 					{
 						"elementId": "bloc_question_10_phy_12",
 						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_13",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_14",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_phy_15",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_16",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_17",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_18",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_phy_19",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_20",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_21",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_22",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_23",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_24",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_25",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_26",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_27",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_28",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_29",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_30",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_31",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_32",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_33",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_34",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_35",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_36",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_37",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_38",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_39",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_40",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_41",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_phy_42",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_43",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_44",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_45",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_46",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_47",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_phy_48",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_phy_49",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_phy_50",
-						"visibility": true
 					}
 				]
 			}]
 		},
+		
 		{
 			"inputId": "input_question_10_morale",
 			"valuesConstraints": [{
@@ -298,125 +180,6 @@
 					},
 					{
 						"elementId": "bloc_question_10_mor_12",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_13",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_14",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_mor_15",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_16",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_17",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_18",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_mor_19",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_20",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_21",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_22",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_23",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_24",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_25",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_26",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_27",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_28",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_29",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_30",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_31",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_32",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_33",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_34",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_35",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_36",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_37",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_38",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_39",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_40",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_41",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_mor_42",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_43",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_44",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_45",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_46",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_47",
-						"visibility": true
-					}, {
-						"elementId": "bloc_question_10_mor_48",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_mor_49",
-						"visibility": true
-					},
-					{
-						"elementId": "bloc_question_10_mor_50",
 						"visibility": true
 					}
 				]
@@ -592,21 +355,8 @@
 
 				]
 			}]
-		},
-		{
-			"inputId": "input_reponse_remunere_non",
-			"valuesConstraints": [{
-				"value": "true",
-				"constraints": [
-
-					{
-						"elementId": "input_reponse_remuneration_brute",
-						"visibility": false
-					}
-
-				]
-			}]
 		}
+	
 
 	]
 }

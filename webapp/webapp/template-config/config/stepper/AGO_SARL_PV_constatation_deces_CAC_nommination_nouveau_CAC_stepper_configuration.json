@@ -90,7 +90,7 @@
 			"description": "",
 			"inputs": [
 
-				"input_gerant_oui",
+				
 				"input_gerant_non",
 				"input_gerant_non_prenom_nom"
 
@@ -100,7 +100,7 @@
 
 		{
 			"id": "bloc_question_10_phy_9_1",
-			"title": "Liste des associés présents ou représentés ",
+			"title": "Nombre d'associés présents:",
 			"description": "",
 			"inputs": ["input_question_10_phy", "input_question_9_1"],
 			"visibility": true
@@ -825,7 +825,7 @@
 
 		{
 			"id": "bloc_cacher_11",
-			"title": "",
+			"title": "Autre(s) personne(s) présente(s):",
 			"description": "",
 			"inputs": ["input_cacher_11"],
 			"visibility": true
@@ -889,9 +889,8 @@
 			"title": "Est-ce que les associés présent ou représentés représentent plus de 50% du capital social de la société ?",
 			"description": "",
 			"inputs": [
-				"input_question_12_oui",
+				"input_question_12_oui"
 
-				"input_question_12_non"
 
 
 			],
@@ -1085,35 +1084,18 @@
 		},
 
 		{
-			"id": "input_gerant_oui",
-			"type": "checkbox",
-			"description": "",
-			"name": "input_gerant_oui",
-			"label": "oui",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"false": ["bookmark_gerant_oui"],
-				"true": []
-
-			},
-			"visibility": true
-		},
-		{
 			"id": "input_gerant_non",
 			"type": "checkbox",
 			"description": "",
 			"name": "input_gerant_non",
-			"label": "non",
+			"label": "Oui/Non",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
 			"value": "",
 			"bookmarkIdPerValue": {
 				"false": ["bookmark_gerant_non"],
-				"true": []
+				"true": ["bookmark_gerant_oui"]
 
 			},
 			"visibility": true
@@ -1160,7 +1142,7 @@
 			"type": "select_input_generator",
 			"description": "",
 			"name": "input_question_9_1",
-			"label": "Nombre d'associés présents",
+			"label": "Nombre d'associés physique",
 			"placeHolder": "",
 			"help": "",
 			"options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27",
@@ -1246,7 +1228,7 @@
 			"type": "select_input_generator",
 			"description": "",
 			"name": "input_question_9_2",
-			"label": "Nombre d'associés présents",
+			"label": "Nombre d'associés morale",
 			"placeHolder": "",
 			"help": "",
 			"options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27",
@@ -3591,7 +3573,7 @@
 			"type": "checkbox",
 			"description": "",
 			"name": "",
-			"label": "Autre(s) personne(s) présente(s)",
+			"label": "personne(s) présente(s)",
 			"placeHolder": "",
 			"help": "il peut s’agir du nouveau gérant",
 			"options": [],
@@ -3782,37 +3764,21 @@
 			"type": "checkbox",
 			"description": "",
 			"name": "input_question_12_oui",
-			"label": "oui",
+			"label": "Non/Oui",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
 			"value": "",
 			"bookmarkIdPerValue": {
 				"false": ["bookmark_question_12_oui"],
-				"true": []
+				"true": ["bookmark_question_12_non"]
 
 			},
 			"visibility": true
 		},
 
 
-		{
-			"id": "input_question_12_non",
-			"type": "checkbox",
-			"description": "",
-			"name": "input_question_12_non",
-			"label": "non",
-			"placeHolder": "",
-			"help": "L’assemblée est invalide il faut indiquer à la personne de refaire la convocation",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"false": ["bookmark_question_12_non"],
-				"true": []
-
-			},
-			"visibility": true
-		},
+		
 		{
 			"id": "input_nom_prenom_ancien_commissiare_comptes",
 			"type": "text",

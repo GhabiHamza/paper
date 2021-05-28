@@ -9,7 +9,6 @@ import { TeamComponent } from './team/team.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
-import { DocumentsAndLegalServicesComponent } from './documents-and-legal-services/documents-and-legal-services.component';
 import { LegalGuidesComponent } from './legal-guides/legal-guides.component';
 import { FaqComponent } from './faq/faq.component';
 import { ProfessionalSolutionComponent } from './professional-solution/professional-solution.component';
@@ -26,7 +25,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
     TermsAndConditionsComponent,
     LegalNoticeComponent,
     PrivacyPolicyComponent,
-    DocumentsAndLegalServicesComponent,
     LegalGuidesComponent,
     FaqComponent,
     ProfessionalSolutionComponent,

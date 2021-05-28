@@ -182,11 +182,11 @@ export class GenerateDocumentComponent implements OnInit, OnDestroy {
           .subscribe(res => {
             this.stepperEventManagerService.sendOrder(res.body);
             let str = res.body.generatedLegalDocument.generatedWordFilePath;
-
             // str = str.slice(21);
-            str = str.slice(53);
+            // str = str.slice(53);
             // str = str.slice(62);
             // str = str.slice(52);
+            str = str.slice(44);
             this.download(str);
           });
       }
