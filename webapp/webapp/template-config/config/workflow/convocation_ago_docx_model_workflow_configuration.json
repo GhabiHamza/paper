@@ -11,47 +11,27 @@
               "visibility": true
             }
           ]
-        },
-        {
-          "value": "false",
-          "constraints": [
-            {
-              "elementId": "input_numero_cin_gerant_tunisien",
-              "visibility": false
-            }
-          ]
         }
+       
       ]
     },
 	{
       "inputId": "input_gerant_non_tunisien",
       "valuesConstraints": [
         {
-          "value": "true",
-          "constraints": [
-            {
-              "elementId": "input_numero_passeport_gerant_non_tunisien",
-              "visibility": true
-            },
-			{
-              "elementId": "input_nationalitee_gerant_non_tunisien",
-              "visibility": true
-            }
-          ]
-        },
-        {
           "value": "false",
           "constraints": [
             {
               "elementId": "input_numero_passeport_gerant_non_tunisien",
-              "visibility": false
+              "visibility": true
             },
 			{
               "elementId": "input_nationalitee_gerant_non_tunisien",
-              "visibility": false
+              "visibility": true
             }
           ]
         }
+       
       ]
     },
 	

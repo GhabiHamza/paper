@@ -121,34 +121,34 @@
     },
   {
       "id": "input_gerant_non_tunisien",
-      "type": "checkbox",
+      "type": "radio",
       "description": "",
-      "name": "",
+      "name": "input_gerant_non_tunisien",
       "label": "Non",
       "placeHolder": "",
       "help": "",
       "options": [],
-      "value": "",
+      "value": "false",
       "bookmarkIdPerValue": {
-        "false": ["gerant_non_tunisien"],
-        "true": []
+        "false": ["gerant_tunisien"]
+       
       },
       "visibility": true
 
 	   },
   {
       "id": "input_gerant_tunisien",
-      "type": "checkbox",
+      "type": "radio",
       "description": "",
-      "name": "",
+      "name": "input_gerant_non_tunisien",
       "label": "Oui",
       "placeHolder": "",
       "help": "",
       "options": [],
-      "value": "",
+      "value": "true",
       "bookmarkIdPerValue": {
-        "false": ["gerant_tunisien"],
-        "true": []
+        "true": ["gerant_non_tunisien"]
+       
       },
       "visibility": true
 

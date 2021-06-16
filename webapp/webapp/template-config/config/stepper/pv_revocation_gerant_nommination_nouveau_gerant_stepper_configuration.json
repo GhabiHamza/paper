@@ -14,12 +14,6 @@
 				"bloc_question_10_phy_6", "bloc_question_10_phy_7", "bloc_question_10_phy_8", "bloc_question_10_phy_9", "bloc_question_10_phy_10",
 				"bloc_question_10_phy_11", "bloc_question_10_phy_12",
 
-				"bloc_question_9_10_morale",
-				"bloc_question_10_mor_1", "bloc_question_10_mor_2","bloc_question_10_mor_3", "bloc_question_10_mor_4", "bloc_question_10_mor_5",
-				"bloc_question_10_mor_6", "bloc_question_10_mor_7", "bloc_question_10_mor_8", "bloc_question_10_mor_9", "bloc_question_10_mor_10",
-				"bloc_question_10_mor_11", "bloc_question_10_mor_12", 
-
-
 				"bloc_cacher_11",
 				"bloc_question_11",
 				"bloc_question_11_1", "bloc_question_11_2", "bloc_question_11_3", "bloc_question_11_4", "bloc_question_11_5",
@@ -77,7 +71,7 @@
 			"description": "",
 			"inputs": [
 
-				
+				"input_gerant_oui",
 				"input_gerant_non",
 				"input_gerant_non_prenom_nom"
 
@@ -87,9 +81,9 @@
 
 		{
 			"id": "bloc_question_10_phy_9_1",
-			"title": "Nombre d'associés présents:",
+			"title": "Nombre de personnes présentés?",
 			"description": "",
-			"inputs": ["input_question_10_phy", "input_question_9_1"],
+			"inputs": ["input_question_9_1"],
 			"visibility": true
 		},
 
@@ -182,106 +176,9 @@
 			"visibility": false
 		},
 		
-
-		{
-			"id": "bloc_question_9_10_morale",
-			"title": "",
-			"description": "",
-			"inputs": ["input_question_10_morale",
-				"input_question_9_2"
-			],
-			"visibility": true
-		},
-
-		{
-			"id": "bloc_question_10_mor_1",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_1", "input_nom_prénom_10_mor_1"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_2",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_2", "input_nom_prénom_10_mor_2"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_3",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_3", "input_nom_prénom_10_mor_3"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_4",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_4", "input_nom_prénom_10_mor_4"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_5",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_5", "input_nom_prénom_10_mor_5"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_6",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_6", "input_nom_prénom_10_mor_6"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_7",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_7", "input_nom_prénom_10_mor_7"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_8",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_8", "input_nom_prénom_10_mor_8"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_9",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_9", "input_nom_prénom_10_mor_9"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_10",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_10", "input_nom_prénom_10_mor_10"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_11",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_11", "input_nom_prénom_10_mor_11"],
-			"visibility": false
-		},
-		{
-			"id": "bloc_question_10_mor_12",
-			"title": "",
-			"description": "",
-			"inputs": ["input_denomination_sociale_10_mor_12", "input_nom_prénom_10_mor_12"],
-			"visibility": false
-		},
-		
-
 		{
 			"id": "bloc_cacher_11",
-			"title": "Autre(s) personne(s) présente(s)",
+			"title": "Autre(s) personne(s) présente(s)?",
 			"description": "",
 			"inputs": ["input_cacher_11"],
 			"visibility": true
@@ -302,7 +199,7 @@
 
 		{
 			"id": "bloc_question_11_1",
-			"title": "Autre personne présente 1",
+			"title": "",
 			"description": "",
 			"inputs": [
 				"input_nom_prenom_11_1",
@@ -313,28 +210,28 @@
 
 		{
 			"id": "bloc_question_11_2",
-			"title": "Autre personne présente 2",
+			"title": "",
 			"description": "",
 			"inputs": ["input_qualite_11_2", "input_nom_prenom_11_2"],
 			"visibility": false
 		},
 		{
 			"id": "bloc_question_11_3",
-			"title": "Autre personne présente 3",
+			"title": "",
 			"description": "",
 			"inputs": ["input_qualite_11_3", "input_nom_prenom_11_3"],
 			"visibility": false
 		},
 		{
 			"id": "bloc_question_11_4",
-			"title": "Autre personne présente 4",
+			"title": "",
 			"description": "",
 			"inputs": ["input_qualite_11_4", "input_nom_prenom_11_4"],
 			"visibility": false
 		},
 		{
 			"id": "bloc_question_11_5",
-			"title": "Autre personne présente 5",
+			"title": "",
 			"description": "",
 			"inputs": ["input_qualite_11_5", "input_nom_prenom_11_5"],
 			"visibility": false
@@ -345,7 +242,8 @@
 			"title": "Est-ce que les associés présent ou représentés représentent plus de 50% du capital social de la société ?",
 			"description": "",
 			"inputs": [
-				"input_question_12_oui"
+				"input_question_12_oui",
+				"input_question_12_non"
 
 				
 
@@ -384,6 +282,7 @@
 			"inputs": [
 
 				"input_reponse_remunere_oui",
+				"input_reponse_remunere_non",
 				"input_reponse_remuneration_brute"
 				
 			],
@@ -562,18 +461,36 @@
 
 		
 		{
-			"id": "input_gerant_non",
-			"type": "checkbox",
+			"id": "input_gerant_oui",
+			"type": "radio",
 			"description": "",
 			"name": "input_gerant_non",
-			"label": "Non/Oui",
+			"label": "Oui",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
-			"value": "",
+			"value": "personne_oui",
 			"bookmarkIdPerValue": {
-				"false": ["bookmark_gerant_non"],
-				"true": ["bookmark_gerant_oui"]
+				"personne_oui": ["bookmark_gerant_non"]
+				
+				},
+			"visibility": true
+
+			},
+		
+		{
+			"id": "input_gerant_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_gerant_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_non",
+			"bookmarkIdPerValue": {
+				
+				"personne_non": ["bookmark_gerant_oui"]
 				
 
 			},
@@ -597,34 +514,14 @@
 			"visibility": false
 		},
 
-
-
-		{
-			"id": "input_question_10_phy",
-			"type": "checkbox",
-			"description": "",
-			"name": "input_question_10_phy",
-			"label": "Personne physique ",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"false": ["bookmark_ques_10_phy","bookmark_ques_10_phy1","bookmark_ques_10_phy2","bookmark_ques_10_phy3","bookmark_ques_10_phy4","bookmark_ques_10_phy5","bookmark_ques_10_phy6","bookmark_ques_10_phy7","bookmark_ques_10_phy8","bookmark_ques_10_phy9","bookmark_ques_10_phy10",
-		             "bookmark_ques_10_phy11","bookmark_ques_10_phy12"], "true":[]
-			},
-			"visibility": true
-		},
-
-
 		{
 			"id": "input_question_9_1",
 			"type": "select_input_generator",
 			"description": "",
 			"name": "input_question_9_1",
-			"label": "Nombre d'associés physique",
+			"label": "",
 			"placeHolder": "",
-			"help": "",
+			"help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale]",
 			"options": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
 			"value": "",
 			"bookmarkIdPerValue": {
@@ -643,56 +540,13 @@
 				"12": ["bookmark_question_9_1"]
 				
 			},
-			"visibility": false
-		},
-
-
-
-
-		{
-			"id": "input_question_10_morale",
-			"type": "checkbox",
-			"description": "",
-			"name": "input_question_10_morale",
-			"label": "Personne morale",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["bookmark_ques_10_morale"]
-			},
 			"visibility": true
 		},
 
-		{
-			"id": "input_question_9_2",
-			"type": "select_input_generator",
-			"description": "",
-			"name": "input_question_9_2",
-			"label": "Nombre d'associés morale",
-			"placeHolder": "",
-			"help": "",
-			"options": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
-			"value": "",
-			"bookmarkIdPerValue": {
-			    "0": ["bookmark_question_9_2"],
-				"1": ["bookmark_question_9_2"],
-				"2": ["bookmark_question_9_2"],
-				"3": ["bookmark_question_9_2"],
-				"4": ["bookmark_question_9_2"],
-				"5": ["bookmark_question_9_2"],
-				"6": ["bookmark_question_9_2"],
-				"7": ["bookmark_question_9_2"],
-				"8": ["bookmark_question_9_2"],
-				"9": ["bookmark_question_9_2"],
-				"10": ["bookmark_question_9_2"],
-				"11": ["bookmark_question_9_2"],
-				"12": ["bookmark_question_9_2"]
-				
-			},
-			"visibility": false
-		},
+
+
+
+		
 
 
 		{
@@ -700,7 +554,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_1",
-			"label": "Nom et prénom de l'associé 1 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -715,7 +569,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_2",
-			"label": "Nom et prénom de l'associé 2 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -730,7 +584,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_3",
-			"label": "Nom et prénom de l'associé 3 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -745,7 +599,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_4",
-			"label": "Nom et prénom de l'associé 4 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -760,7 +614,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_5",
-			"label": "Nom et prénom de l'associé 5 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -775,7 +629,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_6",
-			"label": "Nom et prénom de l'associé 6 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -790,7 +644,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_7",
-			"label": "Nom et prénom de l'associé 7 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -805,7 +659,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_8",
-			"label": "Nom et prénom de l'associé 8 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -820,7 +674,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_9",
-			"label": "Nom et prénom de l'associé 9 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -835,7 +689,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_10",
-			"label": "Nom et prénom de l'associé 10 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -850,7 +704,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_11",
-			"label": "Nom et prénom de l'associé 11 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -865,7 +719,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prénom_10_12",
-			"label": "Nom et prénom de l'associé 12 :",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -876,377 +730,13 @@
 			"visibility": true
 		},
 		
-		{
-			"id": "input_nom_prénom_10_mor_1",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_1",
-			"label": "Nom et prénom de l'associé 1 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_1", "nom_prenom_mor_2_1"]
-			},
-			"visibility": true
-		},
-
-
-		{
-			"id": "input_nom_prénom_10_mor_2",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_2",
-			"label": "Nom et prénom de l'associé 2 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_2", "nom_prenom_mor_2_2"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_3",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_3",
-			"label": "Nom et prénom de l'associé 3 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_3", "nom_prenom_mor_2_3"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_4",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_4",
-			"label": "Nom et prénom de l'associé 4 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_4", "nom_prenom_mor_2_4"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_5",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_5",
-			"label": "Nom et prénom de l'associé 5 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_5", "nom_prenom_mor_2_5"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_6",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_6",
-			"label": "Nom et prénom de l'associé 6 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_6", "nom_prenom_mor_2_6"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_7",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_7",
-			"label": "Nom et prénom de l'associé 7 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_7", "nom_prenom_mor_2_7"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_8",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_8",
-			"label": "Nom et prénom de l'associé 8 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_8", "nom_prenom_mor_2_8"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_9",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_9",
-			"label": "Nom et prénom de l'associé 9 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_9", "nom_prenom_mor_2_9"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_10",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_10",
-			"label": "Nom et prénom de l'associé 10 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_10", "nom_prenom_mor_2_10"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_11",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_11",
-			"label": "Nom et prénom de l'associé 11 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_11", "nom_prenom_mor_2_11"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_nom_prénom_10_mor_12",
-			"type": "text",
-			"description": "",
-			"name": "input_nom_prénom_10_mor_12",
-			"label": "Nom et prénom de l'associé 12 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["nom_prenom_mor_12", "nom_prenom_mor_2_12"]
-			},
-			"visibility": true
-		},
-		
-		{
-			"id": "input_denomination_sociale_10_mor_1",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_1",
-			"label": "Dénomination sociale  de l'associé 1 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_1", "denomination_sociale_mor_2_1"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_2",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_2",
-			"label": "Dénomination sociale  de l'associé 2 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_2", "denomination_sociale_mor_2_2"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_3",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_3",
-			"label": "Dénomination sociale  de l'associé 3 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_3", "denomination_sociale_mor_2_3"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_4",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_4",
-			"label": "Dénomination sociale  de l'associé 4 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_4", "denomination_sociale_mor_2_4"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_5",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_5",
-			"label": "Dénomination sociale  de l'associé 5 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_5", "denomination_sociale_mor_2_5"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_6",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_6",
-			"label": "Dénomination sociale  de l'associé 6 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_6", "denomination_sociale_mor_2_6"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_7",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_7",
-			"label": "Dénomination sociale  de l'associé 7 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_7", "denomination_sociale_mor_2_7"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_8",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_8",
-			"label": "Dénomination sociale  de l'associé 8 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_8", "denomination_sociale_mor_2_8"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_9",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_9",
-			"label": "Dénomination sociale  de l'associé 9 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_9", "denomination_sociale_mor_2_9"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_10",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_10",
-			"label": "Dénomination sociale  de l'associé 10 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_10", "denomination_sociale_mor_2_10"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_11",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_11",
-			"label": "Dénomination sociale  de l'associé 11 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_11", "denomination_sociale_mor_2_11"]
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_denomination_sociale_10_mor_12",
-			"type": "text",
-			"description": "",
-			"name": "input_denomination_sociale_10_mor_12",
-			"label": "Dénomination sociale  de l'associé 12 :",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"text": ["denomination_sociale_mor_12", "denomination_sociale_mor_2_12"]
-			},
-			"visibility": true
-		},
-		
-
+	
 		{
 			"id": "input_choix",
 			"type": "select_input_generator",
 			"description": "",
 			"name": "input_choix",
-			"label": "Nombre",
+			"label": "",
 			"placeHolder": "",
 			"help": "",
 			"options": ["0", "1", "2", "3", "4", "5"],
@@ -1283,7 +773,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prenom_11_1",
-			"label": "Nom et Prénom",
+			"label": "Nom et Prénom 1:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1300,7 +790,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prenom_11_2",
-			"label": "Nom et Prénom :",
+			"label": "Nom et Prénom 2:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1315,7 +805,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prenom_11_3",
-			"label": "Nom et Prénom  :",
+			"label": "Nom et Prénom 3:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1330,7 +820,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prenom_11_4",
-			"label": "Nom et Prénom :",
+			"label": "Nom et Prénom 4:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1345,7 +835,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_nom_prenom_11_5",
-			"label": "Nom et Prénom  :",
+			"label": "Nom et Prénom  5:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1360,7 +850,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_qualite_11_1",
-			"label": "Qualité",
+			"label": "Qualité 1:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1377,7 +867,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_qualite_11_2",
-			"label": "Qualité:",
+			"label": "Qualité 2:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1392,7 +882,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_qualite_11_3",
-			"label": "Qualité:",
+			"label": "Qualité 3:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1407,7 +897,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_qualite_11_4",
-			"label": "Qualité:",
+			"label": "Qualité 4:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1422,7 +912,7 @@
 			"type": "text",
 			"description": "",
 			"name": "input_qualite_11_5",
-			"label": "Qualité:",
+			"label": "Qualité 5:",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
@@ -1436,17 +926,34 @@
 
 		{
 			"id": "input_question_12_oui",
-			"type": "checkbox",
+			"type": "radio",
 			"description": "",
-			"name": "input_question_12_oui",
-			"label": "Non/oui",
+			"name": "input_question_12_non",
+			"label": "oui",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
-			"value": "",
+			"value": "true",
 			"bookmarkIdPerValue": {
-				"false": ["bookmark_question_12_oui"],
+				
 				"true": ["bookmark_question_12_non"]
+
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_question_12_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_question_12_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "false",
+			"bookmarkIdPerValue": {
+				"false": ["bookmark_question_12_oui"]
+				
 
 			},
 			"visibility": true
@@ -1522,17 +1029,33 @@
 
 		{
 			"id": "input_reponse_remunere_oui",
-			"type": "checkbox",
+			"type": "radio",
 			"description": "",
-			"name": "",
-			"label": "Non/Oui",
+			"name": "input_reponse_remunere_non",
+			"label": "Oui",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
-			"value": "",
+			"value": "personne_renum",
 			"bookmarkIdPerValue": {
-				"false": ["remunere_oui"],
-				"true": ["remunere_non"]
+				
+				"personne_renum": ["remunere_non"]
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_reponse_remunere_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_remunere_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_non_renum",
+			"bookmarkIdPerValue": {
+				"personne_non_renum": ["remunere_oui"]
+				
 			},
 			"visibility": true
 		},
@@ -1588,37 +1111,40 @@
 
 		{
 			"id": "input_reponse_oui",
-			"type": "checkbox",
+			"type": "radio",
 			"description": "",
-			"name": "",
+			"name": "input_reponse_non",
 			"label": "Oui",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
-			"value": "",
+			"value": "personne_tun",
 			"bookmarkIdPerValue": {
-				"false": ["bookmarks_reponse_oui"],
-				"true": []
+				"personne_tun": ["bookmarks_reponse_non"]
+				
 			},
 			"visibility": true
 		},
 
 		{
 			"id": "input_reponse_non",
-			"type": "checkbox",
+			"type": "radio",
 			"description": "",
-			"name": "",
+			"name": "input_reponse_non",
 			"label": "Non",
 			"placeHolder": "",
 			"help": "",
 			"options": [],
-			"value": "",
+			"value": "personne_etrang",
 			"bookmarkIdPerValue": {
-				"false": ["bookmarks_reponse_non"],
-				"true": []
+				"personne_etrang": ["bookmarks_reponse_oui"]
+				
 			},
 			"visibility": true
 		},
+
+
+		
 
 		{
 			"id": "input_nom_prenom_du_ancien_gerant",
@@ -1873,17 +1399,7 @@
 			"fontSize": 11
 		},
 
-		{
-			"bookmarkId": "bookmark_ques_10_phy",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "PARAGRAPH_WITH_BOOKMARKS",
-			"fontSize": 12
-		},
+		
 
 
 		{
@@ -1901,32 +1417,7 @@
 
 
 
-		{
-			"bookmarkId": "bookmark_ques_10_morale",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-
-		{
-			"bookmarkId": "bookmark_question_9_2",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"underline": null,
-			"type": "PARAGRAPH_WITH_BOOKMARKS",
-			"fontSize": 12
-		},
-
-
+		
 
 		{
 			"bookmarkId": "autre_per_2",
@@ -2357,7 +1848,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2",
@@ -2368,7 +1859,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_3",
@@ -2379,7 +1870,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_4",
@@ -2390,7 +1881,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_5",
@@ -2401,7 +1892,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_6",
@@ -2412,7 +1903,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_7",
@@ -2423,7 +1914,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_8",
@@ -2434,7 +1925,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_9",
@@ -2445,7 +1936,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_10",
@@ -2456,7 +1947,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_11",
@@ -2467,7 +1958,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_12",
@@ -2478,7 +1969,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		
 
@@ -2491,7 +1982,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_2",
@@ -2502,7 +1993,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_3",
@@ -2513,7 +2004,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_4",
@@ -2524,7 +2015,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_5",
@@ -2535,7 +2026,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_6",
@@ -2546,7 +2037,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_7",
@@ -2557,7 +2048,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_8",
@@ -2568,7 +2059,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_9",
@@ -2579,7 +2070,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_10",
@@ -2590,7 +2081,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_11",
@@ -2601,7 +2092,7 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
+			"fontSize": 10
 		},
 		{
 			"bookmarkId": "nom_prenom_phy_2_12",
@@ -2612,558 +2103,17 @@
 			"italic": false,
 			"capitalized": false,
 			"type": "USER_INPUT",
-			"fontSize": 12
-		},
+			"fontSize": 10
+		}
 		
 
 
 
-		{
-			"bookmarkId": "nom_prenom_mor_1",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_3",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_4",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_5",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_6",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_7",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_8",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_9",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_10",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_11",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_12",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		
-
-		{
-			"bookmarkId": "nom_prenom_mor_2_1",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_2",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_3",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_4",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_5",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_6",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_7",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_8",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_9",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_10",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_11",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "nom_prenom_mor_2_12",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		
-		{
-			"bookmarkId": "denomination_sociale_mor_1",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_3",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_4",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_5",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_6",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_7",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_8",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_9",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_10",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_11",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_12",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		
-		{
-			"bookmarkId": "denomination_sociale_mor_2_1",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_2",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_3",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_4",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_5",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_6",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_7",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_8",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_9",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_10",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_11",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
-		{
-			"bookmarkId": "denomination_sociale_mor_2_12",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
 		
 		
-		{"bookmarkId": "bookmark_ques_10_phy1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy6","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy7","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy8","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy9","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy10","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy11","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
-	{"bookmarkId": "bookmark_ques_10_phy12","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12}
+		
+		
+		
 	
 
 	]

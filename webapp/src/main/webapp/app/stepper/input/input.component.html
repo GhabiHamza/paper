@@ -24,9 +24,6 @@
 
     <div class="form-group row " *ngIf="(input.type === 'checkbox') " >
         
-       
-
-      
         <label *ngIf="( input.type === 'checkbox') " for="{{input.id}}"
             class="col-5 col-form-label chek-input ng-star-inserted">{{input.label}} </label>
 
@@ -83,7 +80,7 @@
                 
             </span>
             <span *ngSwitchCase="'select_input_generator'">
-                <select name="{{input.name}}" id="{{input.id}}" (change)="onChange(input.id)" class="form-control"
+                <select name="{{input.name}}" id="{{input.id}}" (change)="onChange(input.id)" class="form-control inpt-select"
                     required>
                     <option value="{{input.value}}" disabled selected>{{input.placeHolder}}</option>
                     <option *ngFor="let option of input.options" value="{{option}}">{{option}}</option>

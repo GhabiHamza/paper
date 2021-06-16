@@ -73,7 +73,7 @@
       "description": "",
       "inputs": [
 	
-		
+		"input_gerant_oui",
 		"input_gerant_non",
 		"input_gerant_non_prenom_nom"
 		
@@ -84,9 +84,9 @@
 	
 	{
 	"id": "bloc_question_10_phy_10_1",
-	"title": "",
+	"title": "Nombre associés Présents ?",
 	"description": "",
-    "inputs": ["input_question_10_phy","input_question_10_1"],
+    "inputs": ["input_question_10_1"],
 	"visibility": true
 	},
 	
@@ -105,7 +105,7 @@
 		 {"id": "bloc_question_10_phy_12","title": "","description": "","inputs": ["input_nom_prénom_10_12"],"visibility": false},
 		 
   
-    {"id": "bloc_cacher_11","title": "Autre(s) personne(s) présente(s):","description": "","inputs": ["input_cacher_11"],"visibility": true},
+    {"id": "bloc_cacher_11","title": "Autre(s) personne(s) présente(s)?","description": "","inputs": ["input_cacher_11"],"visibility": true},
 	{
       "id": "bloc_question_11",
       "title": "",
@@ -120,7 +120,7 @@
 		
 		
 	{"id": "bloc_question_11_1",
-      "title": "Autre personne présente 1",
+      "title": "",
       "description": "",
       "inputs": [
 	  "input_nom_prenom_11_1",
@@ -128,17 +128,18 @@
 	  ],
       "visibility": false},
   
-  {"id": "bloc_question_11_2","title": "Autre personne présente 2","description": "","inputs": ["input_nom_prenom_11_2","input_qualite_11_2"],"visibility": false},
-  {"id": "bloc_question_11_3","title": "Autre personne présente 3","description": "","inputs": ["input_nom_prenom_11_3","input_qualite_11_3"],"visibility": false},
-  {"id": "bloc_question_11_4","title": "Autre personne présente 4","description": "","inputs": ["input_nom_prenom_11_4","input_qualite_11_4"],"visibility": false},
-  {"id": "bloc_question_11_5","title": "Autre personne présente 5","description": "","inputs": ["input_nom_prenom_11_5","input_qualite_11_5"],"visibility": false},
+  {"id": "bloc_question_11_2","title": "","description": "","inputs": ["input_nom_prenom_11_2","input_qualite_11_2"],"visibility": false},
+  {"id": "bloc_question_11_3","title": "","description": "","inputs": ["input_nom_prenom_11_3","input_qualite_11_3"],"visibility": false},
+  {"id": "bloc_question_11_4","title": "","description": "","inputs": ["input_nom_prenom_11_4","input_qualite_11_4"],"visibility": false},
+  {"id": "bloc_question_11_5","title": "","description": "","inputs": ["input_nom_prenom_11_5","input_qualite_11_5"],"visibility": false},
 		
     {
       "id": "bloc_question_12",
       "title": "Est-ce que les associés présent ou représentés représentent plus de 50% du capital social de la société ?",
       "description": "",
       "inputs": [
-	    "input_question_12_oui"
+	    "input_question_12_oui",
+		"input_question_12_non"
         
 	
 		
@@ -158,7 +159,7 @@
     },
 	{
       "id": "bloc_gerant_tun_or_not",
-      "title": "Est-ce que le gérant statutaire est Tunisien ?",
+      "title": "Est-ce que le nouveau gérant est Tunisien ?",
       "description": "",
       "inputs": [
 	    
@@ -172,7 +173,7 @@
 	
 	{
       "id": "bloc_question_dureee_mondat",
-      "title": "",
+      "title": "Durée du mondat en années ?",
       "description": "",
       "inputs": [
 	    
@@ -189,6 +190,7 @@
       "inputs": [
 	    
 		"input_reponse_remunere_oui",
+		"input_reponse_remunere_non",
 		"input_reponse_remuneration_brute"
 		
 		],
@@ -353,35 +355,42 @@
         },
       "visibility": true
     },
-
 {
-      "id": "input_gerant_oui",
-      "type": "checkbox",
-      "description": "",
-      "name": "input_gerant_oui",
-      "label": "oui",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_gerant_oui"],"true":[]},
-      
-      "visibility": true
-    },
-	{
-      "id": "input_gerant_non",
-      "type": "checkbox",
-      "description": "",
-      "name": "input_gerant_non",
-      "label": "Oui/Non",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_gerant_non"],"true":["bookmark_gerant_oui"]},
-       
-      "visibility": true
-    },
+			"id": "input_gerant_oui",
+			"type": "radio",
+			"description": "",
+			"name": "input_gerant_non",
+			"label": "Oui",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_oui",
+			"bookmarkIdPerValue": {
+				"personne_oui": ["bookmark_gerant_non"]
+				
+				},
+			"visibility": true
+
+			},
+		
+		{
+			"id": "input_gerant_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_gerant_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_non",
+			"bookmarkIdPerValue": {
+				
+				"personne_non": ["bookmark_gerant_oui"]
+				
+
+			},
+			"visibility": true
+		},
 	
 	{
       "id": "input_gerant_non_prenom_nom",
@@ -400,33 +409,15 @@
       "visibility": false
     },
 	
-	
-	{
-	"id": "input_question_10_phy",
-	"type": "checkbox",
-	"description": "",
-	"name": "input_question_10_phy",
-	"label": "Nombre d'associés présents:",
-	"placeHolder": "",
-	"help": "",
-	"options": [],
-	"value": "",
-	"bookmarkIdPerValue": {
-	       "false": ["bookmark_ques_10_phy"], "true":[]
-	},
-	"visibility": true
-	},
-	
-	
 	{
 	"id": "input_question_10_1","type": "select_input_generator","description": "","name": "input_question_10_1",
-	  "label": "Nombre associés:","placeHolder": "",
-	  "help": "Indiqué le nom et le prénom de l’associé, physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale] ","options": ["0","1","2","3", "4", "5","6","7","8","9","10","11","12"],"value": "",
+	  "label": "","placeHolder": "",
+	  "help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale] ","options": ["0","1","2","3", "4", "5","6","7","8","9","10","11","12"],"value": "",
 	  "bookmarkIdPerValue": {"0":  ["bookmark_question_10_1"],"1":  ["bookmark_question_10_1"],"2":  ["bookmark_question_10_1"],"3":  ["bookmark_question_10_1"],"4":  ["bookmark_question_10_1"],"5":  ["bookmark_question_10_1"],
 							 "6":  ["bookmark_question_10_1"],"7":  ["bookmark_question_10_1"],"8":  ["bookmark_question_10_1"],"9":  ["bookmark_question_10_1"],"10": ["bookmark_question_10_1"],
 	                         "11": ["bookmark_question_10_1"],"12": ["bookmark_question_10_1"]
 	 },
-	"visibility": false
+	"visibility": true
 	},
 
   {"id": "input_nom_prénom_10_1","type": "text","description": "","name": "input_nom_prénom_10_1","label": "","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["nom_prenom_phy_1","nom_prenom_phy_1_1"]},"visibility": true},
@@ -456,7 +447,7 @@
 	"type": "select_input_generator",
 	"description": "",
 	"name": "input_question_11",
-    "label": "Nombre",
+    "label": "",
     "placeHolder": "",
     "help": "",
     "options": ["0","1","2", "3", "4", "5"],
@@ -470,7 +461,7 @@
       "type": "text",
       "description": "",
       "name": "input_nom_prenom_11_1",
-      "label": "Nom et Prénom",
+      "label": "Nom et Prénom 1:",
       "placeHolder": "",
       "help": "",
       "options": [],
@@ -482,10 +473,10 @@
       "visibility": true
     },
 	
-  {"id": "input_nom_prenom_11_2","type": "text","description": "","name": "input_nom_prenom_11_2","label": "Nom et Prénom :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_2"]},"visibility": true},
-  {"id": "input_nom_prenom_11_3","type": "text","description": "","name": "input_nom_prenom_11_3","label": "Nom et Prénom :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_3"]},"visibility": true},
-  {"id": "input_nom_prenom_11_4","type": "text","description": "","name": "input_nom_prenom_11_4","label": "Nom et Prénom :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_4"]},"visibility": true},
-  {"id": "input_nom_prenom_11_5","type": "text","description": "","name": "input_nom_prenom_11_5","label": "Nom et Prénom :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_5"]},"visibility": true},
+  {"id": "input_nom_prenom_11_2","type": "text","description": "","name": "input_nom_prenom_11_2","label": "Nom et Prénom 2:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_2"]},"visibility": true},
+  {"id": "input_nom_prenom_11_3","type": "text","description": "","name": "input_nom_prenom_11_3","label": "Nom et Prénom 3:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_3"]},"visibility": true},
+  {"id": "input_nom_prenom_11_4","type": "text","description": "","name": "input_nom_prenom_11_4","label": "Nom et Prénom 4:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_4"]},"visibility": true},
+  {"id": "input_nom_prenom_11_5","type": "text","description": "","name": "input_nom_prenom_11_5","label": "Nom et Prénom 5:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_5"]},"visibility": true},
   
 	
 	{
@@ -493,7 +484,7 @@
       "type": "text",
       "description": "",
       "name": "input_qualite_11_1",
-      "label": "Qualité",
+      "label": "Qualité 1:",
       "placeHolder": "",
       "help": "",
       "options": [],
@@ -506,16 +497,49 @@
     },
 	
  
-  {"id": "input_qualite_11_2","type": "text","description": "","name": "input_qualite_11_2","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_2"]},"visibility": true},
-  {"id": "input_qualite_11_3","type": "text","description": "","name": "input_qualite_11_3","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_3"]},"visibility": true},
-  {"id": "input_qualite_11_4","type": "text","description": "","name": "input_qualite_11_4","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_4"]},"visibility": true},
-  {"id": "input_qualite_11_5","type": "text","description": "","name": "input_qualite_11_5","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_5"]},"visibility": true},
+  {"id": "input_qualite_11_2","type": "text","description": "","name": "input_qualite_11_2","label": "Qualité 2:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_2"]},"visibility": true},
+  {"id": "input_qualite_11_3","type": "text","description": "","name": "input_qualite_11_3","label": "Qualité 3:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_3"]},"visibility": true},
+  {"id": "input_qualite_11_4","type": "text","description": "","name": "input_qualite_11_4","label": "Qualité 4:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_4"]},"visibility": true},
+  {"id": "input_qualite_11_5","type": "text","description": "","name": "input_qualite_11_5","label": "Qualité 5:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_5"]},"visibility": true},
 	
 	
 
 	
-{"id": "input_question_12_oui","type": "checkbox","description": "","name": "","label": "Non/oui", "placeHolder": "","help": "","options": [],"value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_question_12_oui"],"true": ["bookmark_question_12_non"]},"visibility": true},
+{
+			"id": "input_question_12_oui",
+			"type": "radio",
+			"description": "",
+			"name": "input_question_12_non",
+			"label": "oui",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "true",
+			"bookmarkIdPerValue": {
+				
+				"true": ["bookmark_question_12_non"]
+
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_question_12_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_question_12_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "false",
+			"bookmarkIdPerValue": {
+				"false": ["bookmark_question_12_oui"]
+				
+
+			},
+			"visibility": true
+		},
+
 	
 	 {"id": "input_nom_prenom_du_gerant",
   "type": "text",
@@ -524,43 +548,46 @@
   "label": "Nom et Prénom du nouveau gérant",
   "placeHolder": "","help": "","options": [],"value": "",
   "bookmarkIdPerValue": {"text": ["nom_prenom_nouveau_comm","nom_prenom_nouveau_comm_1","nom_prenom_nouveau_comm_2"]},"visibility": true},
-	
 	{
-      "id": "input_reponse_oui",
-      "type": "checkbox",
-      "description": "",
-      "name": "input_reponse_oui",
-      "label": "Oui",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_reponse_oui"],"true":[]},
-	  
-      "visibility": true
-	  },
+			"id": "input_reponse_oui",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_non",
+			"label": "Oui",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_tun",
+			"bookmarkIdPerValue": {
+				"personne_tun": ["bookmarks_reponse_non"]
+				
+			},
+			"visibility": true
+		},
+
+		{
+			"id": "input_reponse_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_etrang",
+			"bookmarkIdPerValue": {
+				"personne_etrang": ["bookmarks_reponse_oui"]
+				
+			},
+			"visibility": true
+		},
+
+	
 	  
 	 {"id": "input_reponse_oui_num_cin","type": "number","description": "",
   "name": "input_reponse_oui_num_cin","label": "Numéro de carte d’identité nationale du nouveau gérant","placeHolder": "","help": "","options": [],
   "value": "","bookmarkIdPerValue": {"text": ["num_cin_nv_gerant"]},"visibility": false},
   
-  {
-      "id": "input_reponse_non",
-      "type": "checkbox",
-      "description": "",
-      "name": "input_reponse_non",
-      "label": "Non",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {"false": ["bookmark_reponse_non"],"true":[]},
-       
-        
-      
-      "visibility": true
-	  },
-	
   {"id": "input_reponse_non_num_passeport","type": "text","description": "",
   "name": "input_reponse_non_num_passeport","label": "Numéro de Passeport","placeHolder": "","help": "","options": [],
   "value": "","bookmarkIdPerValue": {"text": ["num_passport_gerant"]},"visibility": false},
@@ -571,25 +598,43 @@
  
   
 	 {"id": "input_question_dureee_mondat","type": "number","description": "",
-  "name": "input_question_dureee_mondat","label": "Durée du mandat en années","placeHolder": "","help": "","options": [],
+  "name": "input_question_dureee_mondat","label": "","placeHolder": "","help": "","options": [],
   "value": "","bookmarkIdPerValue": {"text": ["duree_mondat_question_15","duree_mondat_question_15_1"]},"visibility": true},
   
 
   
   {
-      "id": "input_reponse_remunere_oui",
-      "type": "checkbox",
-      "description": "",
-      "name": "input_reponse_remunere_oui",
-      "label": "Non/Oui",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {"false": ["remunere_oui"],"true":["remunere_non"]},
-        
-      "visibility": true
-	  },
+			"id": "input_reponse_remunere_oui",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_remunere_non",
+			"label": "Oui",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_renum",
+			"bookmarkIdPerValue": {
+				
+				"personne_renum": ["remunere_non"]
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_reponse_remunere_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_remunere_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_non_renum",
+			"bookmarkIdPerValue": {
+				"personne_non_renum": ["remunere_oui"]
+				
+			},
+			"visibility": true
+		},
 	  
 	   {"id": "input_reponse_remuneration_brute","type": "number","description": "",
   "name": "input_reponse_remuneration_brute","label": "Quelle sera sa rémunération mensuelle brute en dinars ?","placeHolder": "","help": "","options": [],
@@ -806,7 +851,6 @@
       "fontSize": 11
     },
 	
-   {"bookmarkId": "bookmark_ques_10_phy","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "PARAGRAPH_WITH_BOOKMARKS","fontSize": 12},
    
    {"bookmarkId": "bookmark_question_10_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
 	
@@ -815,33 +859,33 @@
   
   
   
-  {"bookmarkId": "nom_prenom_phy_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_6","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_7","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_8","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_9","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_10","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_11","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_12","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
+  {"bookmarkId": "nom_prenom_phy_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_6","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_7","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_8","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_9","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_10","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_11","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
+  {"bookmarkId": "nom_prenom_phy_12","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 9},
   
   
   
-  {"bookmarkId": "nom_prenom_phy_1_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_2_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_3_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_4_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_5_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_6_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_7_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_8_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_9_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_10_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_11_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
-  {"bookmarkId": "nom_prenom_phy_12_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 12},
+  {"bookmarkId": "nom_prenom_phy_1_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_2_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_3_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_4_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_5_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_6_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_7_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_8_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_9_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_10_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_11_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
+  {"bookmarkId": "nom_prenom_phy_12_1","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"type": "USER_INPUT","fontSize": 10},
   
   
   
@@ -854,12 +898,12 @@
 	
 	
 
-  {"bookmarkId": "cacher_cacher_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
-  {"bookmarkId": "cacher_cacher_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
-  {"bookmarkId": "cacher_cacher_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
-  {"bookmarkId": "cacher_cacher_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
-  {"bookmarkId": "cacher_cacher_6","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
-  {"bookmarkId": "cacher_cacher_7","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
+  {"bookmarkId": "cacher_cacher_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 10},
+  {"bookmarkId": "cacher_cacher_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 10},
+  {"bookmarkId": "cacher_cacher_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 10},
+  {"bookmarkId": "cacher_cacher_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 10},
+  {"bookmarkId": "cacher_cacher_6","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 10},
+  {"bookmarkId": "cacher_cacher_7","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 10},
 	
 	
   {"bookmarkId": "autre_per_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
@@ -874,13 +918,13 @@
       "italic": false,
       "capitalized": false,
       "type": "USER_INPUT",
-      "fontSize": 11
+      "fontSize": 10
     },
 	
-	{"bookmarkId": "n_p_aa_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
-	{"bookmarkId": "n_p_aa_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
-	{"bookmarkId": "n_p_aa_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
-	{"bookmarkId": "n_p_aa_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
+	{"bookmarkId": "n_p_aa_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
+	{"bookmarkId": "n_p_aa_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
+	{"bookmarkId": "n_p_aa_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
+	{"bookmarkId": "n_p_aa_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
 	
 	{
     "bookmarkId": "ques_aa_1",
@@ -891,13 +935,13 @@
       "italic": false,
       "capitalized": false,
       "type": "USER_INPUT",
-      "fontSize": 11
+      "fontSize": 10
     },
 	
-	{"bookmarkId": "ques_aa_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
-	{"bookmarkId": "ques_aa_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
-	{"bookmarkId": "ques_aa_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
-	{"bookmarkId": "ques_aa_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 12},
+	{"bookmarkId": "ques_aa_2","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
+	{"bookmarkId": "ques_aa_3","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
+	{"bookmarkId": "ques_aa_4","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
+	{"bookmarkId": "ques_aa_5","value": "","fontFamily": "Times New Roman","color": null,"bold": true,"italic":false, "capitalized": false,"type": "USER_INPUT","fontSize": 10},
 	
 
 	
@@ -984,6 +1028,10 @@
   "bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
   
     {"bookmarkId": "remunere_non","value": "","fontFamily": "Times New Roman","color": null,
+  "bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
+  {"bookmarkId": "bookmarks_reponse_non","value": "","fontFamily": "Times New Roman","color": null,
+  "bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
+  {"bookmarkId": "bookmarks_reponse_oui","value": "","fontFamily": "Times New Roman","color": null,
   "bold": true,"italic": false,"capitalized": false,"underline": null,"type": "PARAGRAPH_WITH_BOOKMARKS", "fontSize": 12},
   
 	

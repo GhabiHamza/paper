@@ -45,11 +45,11 @@
 	
   {"id": "bloc_cacher_11","title": "","description": "","inputs": ["input_cacher_11"],"visibility": true},
   {"id": "bloc_question_11","title": "","description": "","inputs": ["input_question_11"],"visibility": true},
-  {"id": "bloc_question_11_1","title": "Autre personne présente 1","description": "","inputs": ["input_qestion_11_1","input_nom_prénom_11_1"],"visibility": false},
-  {"id": "bloc_question_11_2","title": "Autre personne présente 2","description": "","inputs": ["input_qestion_11_2","input_nom_prénom_11_2"],"visibility": false},
-  {"id": "bloc_question_11_3","title": "Autre personne présente 3","description": "","inputs": ["input_qestion_11_3","input_nom_prénom_11_3"],"visibility": false},
-  {"id": "bloc_question_11_4","title": "Autre personne présente 4","description": "","inputs": ["input_qestion_11_4","input_nom_prénom_11_4"],"visibility": false},
-  {"id": "bloc_question_11_5","title": "Autre personne présente 5","description": "","inputs": ["input_qestion_11_5","input_nom_prénom_11_5"],"visibility": false},
+  {"id": "bloc_question_11_1","title": "","description": "","inputs": ["input_qestion_11_1","input_nom_prénom_11_1"],"visibility": false},
+  {"id": "bloc_question_11_2","title": "","description": "","inputs": ["input_qestion_11_2","input_nom_prénom_11_2"],"visibility": false},
+  {"id": "bloc_question_11_3","title": "","description": "","inputs": ["input_qestion_11_3","input_nom_prénom_11_3"],"visibility": false},
+  {"id": "bloc_question_11_4","title": "","description": "","inputs": ["input_qestion_11_4","input_nom_prénom_11_4"],"visibility": false},
+  {"id": "bloc_question_11_5","title": "","description": "","inputs": ["input_qestion_11_5","input_nom_prénom_11_5"],"visibility": false},
 
  
  
@@ -85,6 +85,7 @@
       "inputs": [
 	    
 		"input_reponse_remunere_oui",
+		"input_reponse_remunere_non",
 		"input_reponse_remuneration_brute"
 		
 		],
@@ -116,38 +117,37 @@
   
   
   {
-      "id": "input_reponse_remunere_oui",
-      "type": "checkbox",
-      "description": "",
-      "name": "",
-      "label": "Non/Oui",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {
-        "false": ["remunere_oui"],
-        "true": ["remunere_non"]
-      },
-      "visibility": true
-	  },
-  {
-      "id": "input_reponse_remunere_non",
-      "type": "checkbox",
-      "description": "",
-      "name": "",
-      "label": "Non",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {
-        "false": ["remunere_non"],
-        "true": []
-      },
-      "visibility": true
-	  },
-  
+			"id": "input_reponse_remunere_oui",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_remunere_non",
+			"label": "Oui",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_renum",
+			"bookmarkIdPerValue": {
+				
+				"personne_renum": ["remunere_non"]
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_reponse_remunere_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_remunere_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_non_renum",
+			"bookmarkIdPerValue": {
+				"personne_non_renum": ["remunere_oui"]
+				
+			},
+			"visibility": true
+		},
   {"id": "input_reponse_oui_num_cin","type": "number","description": "",
   "name": "input_reponse_oui_num_cin","label": "Numéro de carte d’identité nationale du nouveau gérant","placeHolder": "","help": "","options": [],
   "value": "","bookmarkIdPerValue": {"text": ["num_cin_nv_gerant"]},"visibility": false},
@@ -161,39 +161,39 @@
   "value": "","bookmarkIdPerValue": {"text": ["nationalité_grant"]},"visibility": false},
  
   {
-      "id": "input_reponse_oui",
-      "type": "checkbox",
-      "description": "",
-      "name": "",
-      "label": "Oui",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {
-        "false": ["bookmarks_reponse_oui"],
-        "true": []
-      },
-      "visibility": true
-	  },
-  
-  {
-      "id": "input_reponse_non",
-      "type": "checkbox",
-      "description": "",
-      "name": "",
-      "label": "Non",
-      "placeHolder": "",
-      "help": "",
-      "options": [],
-      "value": "",
-      "bookmarkIdPerValue": {
-        "false": ["bookmarks_reponse_non"],
-        "true": []
-      },
-      "visibility": true
-	  },
-  
+			"id": "input_reponse_oui",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_non",
+			"label": "Oui",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_tun",
+			"bookmarkIdPerValue": {
+				"personne_tun": ["bookmarks_reponse_non"]
+				
+			},
+			"visibility": true
+		},
+
+		{
+			"id": "input_reponse_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_reponse_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "personne_etrang",
+			"bookmarkIdPerValue": {
+				"personne_etrang": ["bookmarks_reponse_oui"]
+				
+			},
+			"visibility": true
+		},
+
   
   
   
@@ -225,24 +225,24 @@
   
   
   
-  {"id": "input_nom_prénom_11_1","type": "text","description": "","name": "input_nom_prénom_11_1","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_1"]},"visibility": true},
-  {"id": "input_nom_prénom_11_2","type": "text","description": "","name": "input_nom_prénom_11_2","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_2"]},"visibility": true},
-  {"id": "input_nom_prénom_11_3","type": "text","description": "","name": "input_nom_prénom_11_3","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_3"]},"visibility": true},
-  {"id": "input_nom_prénom_11_4","type": "text","description": "","name": "input_nom_prénom_11_4","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_4"]},"visibility": true},
-  {"id": "input_nom_prénom_11_5","type": "text","description": "","name": "input_nom_prénom_11_5","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_5"]},"visibility": true},
+  {"id": "input_nom_prénom_11_1","type": "text","description": "","name": "input_nom_prénom_11_1","label": "Nom et prénom du personne présent 1:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_1"]},"visibility": true},
+  {"id": "input_nom_prénom_11_2","type": "text","description": "","name": "input_nom_prénom_11_2","label": "Nom et prénom du personne présent 2:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_2"]},"visibility": true},
+  {"id": "input_nom_prénom_11_3","type": "text","description": "","name": "input_nom_prénom_11_3","label": "Nom et prénom du personne présent 3:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_3"]},"visibility": true},
+  {"id": "input_nom_prénom_11_4","type": "text","description": "","name": "input_nom_prénom_11_4","label": "Nom et prénom du personne présent 4:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_4"]},"visibility": true},
+  {"id": "input_nom_prénom_11_5","type": "text","description": "","name": "input_nom_prénom_11_5","label": "Nom et prénom du personne présent 5:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_5"]},"visibility": true},
   
-  {"id": "input_qestion_11_1","type": "text","description": "","name": "input_qestion_11_1","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_1"]},"visibility": true},
-  {"id": "input_qestion_11_2","type": "text","description": "","name": "input_qestion_11_2","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_2"]},"visibility": true},
-  {"id": "input_qestion_11_3","type": "text","description": "","name": "input_qestion_11_3","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_3"]},"visibility": true},
-  {"id": "input_qestion_11_4","type": "text","description": "","name": "input_qestion_11_4","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_4"]},"visibility": true},
-  {"id": "input_qestion_11_5","type": "text","description": "","name": "input_qestion_11_5","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_5"]},"visibility": true},
+  {"id": "input_qestion_11_1","type": "text","description": "","name": "input_qestion_11_1","label": "Qualité 1:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_1"]},"visibility": true},
+  {"id": "input_qestion_11_2","type": "text","description": "","name": "input_qestion_11_2","label": "Qualité 2:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_2"]},"visibility": true},
+  {"id": "input_qestion_11_3","type": "text","description": "","name": "input_qestion_11_3","label": "Qualité 3:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_3"]},"visibility": true},
+  {"id": "input_qestion_11_4","type": "text","description": "","name": "input_qestion_11_4","label": "Qualité 4:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_4"]},"visibility": true},
+  {"id": "input_qestion_11_5","type": "text","description": "","name": "input_qestion_11_5","label": "Qualité 5:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_5"]},"visibility": true},
   
   {"id": "input_question_11","type": "select_input_generator","description": "","name": "input_question_11",
-  "label": "Nombre","placeHolder": "",
+  "label": "","placeHolder": "",
   "help": "","options": ["0","1","2", "3", "4", "5"],"value": "",
   "bookmarkIdPerValue": {"0":["autre_per_2"],"1":["autre_per_2"], "2": ["autre_per_2"],"3": ["autre_per_2"],"4": ["autre_per_2"],"5": ["autre_per_2"]},"visibility": false},
 						   
-	{"id": "input_cacher_11","type": "checkbox","description": "","name": "","label": "Autre(s) personne(s) présente(s)", "placeHolder": "","help": "il peut s’agir du nouveau gérant","options": [],"value": "",
+	{"id": "input_cacher_11","type": "checkbox","description": "","name": "","label": "Autre(s) personne(s) présente(s)?", "placeHolder": "","help": "il peut s’agir du nouveau gérant","options": [],"value": "",
       "bookmarkIdPerValue": {"false": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"],"true": []},"visibility": true},
 	  
 	  
