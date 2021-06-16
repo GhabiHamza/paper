@@ -242,7 +242,7 @@
 			"id": "bloc_question_11_1",
 			"title": "",
 			"description": "",
-			"inputs": ["input_qualite_11_1", "input_nom_prenom_11_1"],
+			"inputs": ["input_nom_prenom_11_1","input_qualite_11_1"],
 			"visibility": false
 		},
 
@@ -250,28 +250,28 @@
 			"id": "bloc_question_11_2",
 			"title": "",
 			"description": "",
-			"inputs": ["input_qualite_11_2", "input_nom_prenom_11_2"],
+			"inputs": ["input_nom_prenom_11_2","input_qualite_11_2"],
 			"visibility": false
 		},
 		{
 			"id": "bloc_question_11_3",
 			"title": "",
 			"description": "",
-			"inputs": ["input_qualite_11_3", "input_nom_prenom_11_3"],
+			"inputs": ["input_nom_prenom_11_3","input_qualite_11_3"],
 			"visibility": false
 		},
 		{
 			"id": "bloc_question_11_4",
 			"title": "",
 			"description": "",
-			"inputs": ["input_qualite_11_4", "input_nom_prenom_11_4"],
+			"inputs": ["input_nom_prenom_11_4","input_qualite_11_4"],
 			"visibility": false
 		},
 		{
 			"id": "bloc_question_11_5",
 			"title": "",
 			"description": "",
-			"inputs": ["input_qualite_11_5", "input_nom_prenom_11_5"],
+			"inputs": ["input_nom_prenom_11_5","input_qualite_11_5"],
 			"visibility": false
 		},
 		

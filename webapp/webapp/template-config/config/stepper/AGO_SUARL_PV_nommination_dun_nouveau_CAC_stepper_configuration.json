@@ -44,11 +44,11 @@
 	
   {"id": "bloc_cacher_11","title": "","description": "","inputs": ["input_cacher_11"],"visibility": true},
   {"id": "bloc_question_11","title": "","description": "","inputs": ["input_question_11"],"visibility": true},
-  {"id": "bloc_question_11_1","title": "","description": "","inputs": ["input_qestion_11_1","input_nom_prénom_11_1"],"visibility": false},
-  {"id": "bloc_question_11_2","title": "","description": "","inputs": ["input_qestion_11_2","input_nom_prénom_11_2"],"visibility": false},
-  {"id": "bloc_question_11_3","title": "","description": "","inputs": ["input_qestion_11_3","input_nom_prénom_11_3"],"visibility": false},
-  {"id": "bloc_question_11_4","title": "","description": "","inputs": ["input_qestion_11_4","input_nom_prénom_11_4"],"visibility": false},
-  {"id": "bloc_question_11_5","title": "","description": "","inputs": ["input_qestion_11_5","input_nom_prénom_11_5"],"visibility": false},
+  {"id": "bloc_question_11_1","title": "","description": "","inputs": ["input_nom_prénom_11_1","input_qestion_11_1"],"visibility": false},
+  {"id": "bloc_question_11_2","title": "","description": "","inputs": ["input_nom_prénom_11_2","input_qestion_11_2"],"visibility": false},
+  {"id": "bloc_question_11_3","title": "","description": "","inputs": ["input_nom_prénom_11_3","input_qestion_11_3"],"visibility": false},
+  {"id": "bloc_question_11_4","title": "","description": "","inputs": ["input_nom_prénom_11_4","input_qestion_11_4"],"visibility": false},
+  {"id": "bloc_question_11_5","title": "","description": "","inputs": ["input_nom_prénom_11_5","input_qestion_11_5"],"visibility": false},
 
  
  

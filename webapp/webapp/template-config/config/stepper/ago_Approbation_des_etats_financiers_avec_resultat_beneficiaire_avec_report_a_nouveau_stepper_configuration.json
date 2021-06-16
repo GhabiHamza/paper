@@ -413,18 +413,18 @@
   "bookmarkIdPerValue": {"0":["autre_per_2"],"1":["autre_per_2"], "2": ["autre_per_2"],"3": ["autre_per_2"],"4": ["autre_per_2"],"5": ["autre_per_2"]},"visibility": false},
 
   
-  {"id": "input_nom_prénom_12_1","type": "text","description": "","name": "input_nom_prénom_12_1","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_1"]},"visibility": true},
-  {"id": "input_nom_prénom_12_2","type": "text","description": "","name": "input_nom_prénom_12_2","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_2"]},"visibility": true},
-  {"id": "input_nom_prénom_12_3","type": "text","description": "","name": "input_nom_prénom_12_3","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_3"]},"visibility": true},
-  {"id": "input_nom_prénom_12_4","type": "text","description": "","name": "input_nom_prénom_12_4","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_4"]},"visibility": true},
-  {"id": "input_nom_prénom_12_5","type": "text","description": "","name": "input_nom_prénom_12_5","label": "Nom et prénom du personne présent :","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_5"]},"visibility": true},
+  {"id": "input_nom_prénom_12_1","type": "text","description": "","name": "input_nom_prénom_12_1","label": "Nom et prénom du personne présent 1:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_1"]},"visibility": true},
+  {"id": "input_nom_prénom_12_2","type": "text","description": "","name": "input_nom_prénom_12_2","label": "Nom et prénom du personne présent 2:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_2"]},"visibility": true},
+  {"id": "input_nom_prénom_12_3","type": "text","description": "","name": "input_nom_prénom_12_3","label": "Nom et prénom du personne présent 3:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_3"]},"visibility": true},
+  {"id": "input_nom_prénom_12_4","type": "text","description": "","name": "input_nom_prénom_12_4","label": "Nom et prénom du personne présent 4:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_4"]},"visibility": true},
+  {"id": "input_nom_prénom_12_5","type": "text","description": "","name": "input_nom_prénom_12_5","label": "Nom et prénom du personne présent 5:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["n_p_aa_5"]},"visibility": true},
   
   
-  {"id": "input_qestion_12_1","type": "text","description": "","name": "input_qestion_12_1","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_1"]},"visibility": true},
-  {"id": "input_qestion_12_2","type": "text","description": "","name": "input_qestion_12_2","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_2"]},"visibility": true},
-  {"id": "input_qestion_12_3","type": "text","description": "","name": "input_qestion_12_3","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_3"]},"visibility": true},
-  {"id": "input_qestion_12_4","type": "text","description": "","name": "input_qestion_12_4","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_4"]},"visibility": true},
-  {"id": "input_qestion_12_5","type": "text","description": "","name": "input_qestion_12_5","label": "Qualité:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_5"]},"visibility": true},
+  {"id": "input_qestion_12_1","type": "text","description": "","name": "input_qestion_12_1","label": "Qualité 1:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_1"]},"visibility": true},
+  {"id": "input_qestion_12_2","type": "text","description": "","name": "input_qestion_12_2","label": "Qualité 2:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_2"]},"visibility": true},
+  {"id": "input_qestion_12_3","type": "text","description": "","name": "input_qestion_12_3","label": "Qualité 3:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_3"]},"visibility": true},
+  {"id": "input_qestion_12_4","type": "text","description": "","name": "input_qestion_12_4","label": "Qualité 4:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_4"]},"visibility": true},
+  {"id": "input_qestion_12_5","type": "text","description": "","name": "input_qestion_12_5","label": "Qualité 5:","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["ques_aa_5"]},"visibility": true},
   
   
   
