@@ -1,3 +1,4 @@
+
 import { Component, OnInit, OnDestroy, AfterViewInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 import { LoginService } from 'app/core/login/login.service';
 import { JhiAlertService, JhiEventManager, JhiLanguageService } from 'ng-jhipster';
@@ -14,13 +15,15 @@ import { LegalDocumentService } from 'app/entities/legal-document/legal-document
 import { ILegalDocument } from 'app/shared/model/legal-document.model';
 import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 
-
 @Component({
-  selector: 'jhi-main-menu',
-  templateUrl: './main-menu.component.html',
-  styleUrls: ['./main-menu.component.scss']
+  selector: 'jhi-documents',
+  templateUrl: './documents.component.html',
+  styleUrls: ['./documents.component.scss']
 })
-export class MainMenuComponent implements OnInit, OnDestroy, AfterViewInit {
+
+
+
+export class DocumentsComponent implements OnInit, OnDestroy, AfterViewInit {
   modalRef: NgbModalRef;
   authSubscription: Subscription;
   account: Account;
@@ -34,6 +37,7 @@ export class MainMenuComponent implements OnInit, OnDestroy, AfterViewInit {
   elementPosition: any;
   section = 'home-section';
   numberOfLegalDocumentsToShow = 5;
+
 
   constructor(
     private loginService: LoginService,
@@ -116,6 +120,8 @@ export class MainMenuComponent implements OnInit, OnDestroy, AfterViewInit {
     } else return null;
   }
 
+
+
   protected onError(errorMessage: string) {
     this.jhiAlertService.error(errorMessage, null, null);
   }
@@ -145,12 +151,11 @@ export class MainMenuComponent implements OnInit, OnDestroy, AfterViewInit {
     this.windowScroll = window.pageYOffset;
     this.windowScroll >= this.elementPosition ? (this.sticky = true) : (this.sticky = false);
   }
-
-  open(alldocs){
-    alldocs.openMenu();
-    }
-  clos(alldocs){
-    alldocs.closMenu();
-      }
-  
 }
+
+
+
+
+
+
+

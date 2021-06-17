@@ -107,7 +107,7 @@ public class LegalDocumentMigration {
         legalDocument.setShortName("Contrat à durée déterminée");
         legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
         legalDocument.setFullName("Contrat à durée déterminée");
-        legalDocument.setKeywords("droit de travail");
+        legalDocument.setKeywords("droit de travail cdd");
         legalDocument.setDescription("Contrat à durée déterminée");
         legalDocument.setTemplatePreviewPath("empty_preview");
         legalDocument.setTemplateFilePath("cdd_docx_model.docx");
@@ -164,7 +164,7 @@ public class LegalDocumentMigration {
         legalDocument.setShortName("Contrat à durée indéterminée");
         legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
         legalDocument.setFullName("Contrat à durée indéterminée");
-        legalDocument.setKeywords("droit de travail");
+        legalDocument.setKeywords("droit de travail cdi");
         legalDocument.setDescription("Contrat à durée indéterminée");
         legalDocument.setTemplatePreviewPath("empty_preview");
         legalDocument.setTemplateFilePath("status_cdi_docx_model.docx");
@@ -222,7 +222,7 @@ public class LegalDocumentMigration {
         legalDocument.setShortName("Stage d'initiation à la vie professionnelle");
         legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
         legalDocument.setFullName("SIVP_ar");
-        legalDocument.setKeywords("droit de travail");
+        legalDocument.setKeywords("droit de travail sivp");
         legalDocument.setDescription("MODÈLE DE STAGE D'INITIATION A LA VIE PROFESSIONNELLE");
         legalDocument.setTemplatePreviewPath("empty_preview");
         legalDocument.setTemplateFilePath("civp_docx_model.docx");
@@ -377,7 +377,7 @@ public class LegalDocumentMigration {
         legalDocument.setShortName("Accord de résiliation amiable");
         legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
         legalDocument.setFullName("Accord de résiliation amiable de contrat de travail");
-        legalDocument.setKeywords("droit de travail");
+        legalDocument.setKeywords("droit de travail resil");
         legalDocument.setDescription("ACCORD DE RESILIATION AMIABLE DE CONTRAT DE TRAVAIL");
         legalDocument.setTemplatePreviewPath("empty_preview");
         legalDocument.setTemplateFilePath("accord_amiable_docx_model.docx");
@@ -1416,7 +1416,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("PV AGE Augmentataion de capital numéraire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("PV AGE Augmentataion de capital numéraire");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("cap SARL");
      legalDocument.setDescription("PV AGE Augmentataion de capital numéraire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGE_Augmentataion_de_capital_numeraire.docx");
@@ -1530,7 +1530,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Contrat d'agent commercial");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Contrat d'agent commercial");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm agent");
      legalDocument.setDescription("Contrat d'agent commercial");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("contrat_agent_commercial.docx");
@@ -1568,7 +1568,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Nantissement equipement");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Nantissement equipement");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm nan2");
      legalDocument.setDescription("Nantissement equipement");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("Nantissement_equipement.docx");
@@ -1604,7 +1604,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Nantissement meuble incorporel");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Nantissement meuble incorporel");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm nan4");
      legalDocument.setDescription("Nantissement meuble incorporel");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("Nantissement_meuble_incorporel.docx");
@@ -1640,7 +1640,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Nantissement F.D.C");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Nantissement F.D.C");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm nan3");
      legalDocument.setDescription("Nantissement F.D.C");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("Nantissement_f_d_c.docx");
@@ -1676,7 +1676,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Nantissement PS");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Nantissement PS");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm nan5");
      legalDocument.setDescription("Nantissement PS");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("Nantissement_p_s.docx");
@@ -1713,7 +1713,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Nantissement Actions");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Nantissement Actions");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm nan1");
      legalDocument.setDescription("Nantissement Actions");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("Nantissement_actions.docx");
@@ -1749,7 +1749,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Gage meuble corporel");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Gage meuble corporel");
-     legalDocument.setKeywords("comm");
+     legalDocument.setKeywords("comm gage");
      legalDocument.setDescription("Gage meuble corporel");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("gage_meuble_corporel.docx");
@@ -1823,7 +1823,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV nommination d'un nouveau CAC");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV nommination d'un nouveau CAC");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("const SUARL");
      legalDocument.setDescription("AGO SUARL PV nommination d'un nouveau CAC");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_nommination_dun_nouveau_CAC.docx");
@@ -1897,7 +1897,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV renouvellement du mandat du gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV renouvellement du mandat du gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("ren1 ger SUARL");
      legalDocument.setDescription("AGO SUARL PV renouvellement du mandat du gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_renouvellement_du_mandat_du_gerant.docx");
@@ -1934,7 +1934,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV nommination d'un nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV nommination d'un nouveau gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("nom1 ger SUARL");
      legalDocument.setDescription("AGO SUARL PV nommination d'un nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_nommination_d_un_nouveau_gerant.docx");
@@ -1972,7 +1972,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV révocation du gérant et nommination d'un nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV révocation du gérant et nommination d'un nouveau gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("rev1 ger SUARL");
      legalDocument.setDescription("AGO SUARL PV révocation du gérant et nommination d'un nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_revocation_gerant_nommination_d_un_nouveau_gerant.docx");
@@ -2010,7 +2010,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV démission du gérant et nommination d'un nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV démission du gérant et nommination d'un nouveau gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("dem ger SUARL");
      legalDocument.setDescription("AGO SUARL PV démission du gérant et nommination d'un nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_demission_gerant_nommination_d_un_nouveau_gerant.docx");
@@ -2082,7 +2082,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGE SUARL PV révocation du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGE SUARL PV révocation du gérant et nommination d'un nouveau gérant statutaire");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("rev2 ger SUARL");
      legalDocument.setDescription("AGE SUARL PV révocation du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGE_revocation_gerant_nommination_nv_gerant_statutaire.docx");
@@ -2117,7 +2117,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGE SUARL PV nommination d'un nouveau gérant statutaire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGE SUARL PV nommination d'un nouveau gérant statutaire");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("nom2 ger SUARL");
      legalDocument.setDescription("AGE SUARL PV nommination d'un nouveau gérant statutaire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGE_SUARL_nommination_nv_gerant_statutaire.docx");
@@ -2151,7 +2151,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGE SUARL PV renouvellement du mandat gérant statutaire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGE SUARL PV renouvellement du mandat gérant statutaire");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("ren2 ger SUARL");
      legalDocument.setDescription("AGE SUARL PV renouvellement du mandat gérant statutaire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGE_SUARL_renouvellement_mandat_gerant_statutaire.docx");
@@ -2187,7 +2187,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV constatation décés du gérant et nommination d'un nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV constatation décés du gérant et nommination d'un nouveau gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("dec ger SUARL");
      legalDocument.setDescription("AGO SUARL PV constatation décés du gérant et nommination d'un nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGO_SUARL_constatation_deces_gerant_nommination_nouveau_gerant.docx");
@@ -2223,7 +2223,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGE SUARL PV constatation décés du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGE SUARL PV constatation décés du gérant et nommination d'un nouveau gérant statutaire");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("dec ger SUARL");
      legalDocument.setDescription("AGE SUARL PV constatation décés du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGE_SUARL_constatation_deces_gerant_nommination_nouveau_gerant_statutaire.docx");
@@ -2330,7 +2330,7 @@ public void AGE_SARL_PV_renouvellement_du_mandat_du_gerant_statutaire_LegalDocum
     legalDocument.setShortName("AGE SARL PV renouvellement du mandat du gérant statutaire");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGE SARL PV renouvellement du mandat du gérant statutaire");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords(" ren ger SARL sat");
     legalDocument.setDescription("AGE SARL PV renouvellement du mandat du gérant statutaire");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGE_SARL_PV_renouvellement_du_mandat_du_gerant_statutaire.docx");
@@ -2367,7 +2367,7 @@ public void AGO_SARL_pv_nomination_d_un_nouveau_gerant_a_la_constitution_LegalDo
     legalDocument.setShortName("AGO SARL pv nomination d'un nouveau gérant à la constitution");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO SARL pv nomination d'un nouveau gérant à la constitution");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("nom ger SARL");
     legalDocument.setDescription("AGO SARL pv nomination d'un nouveau gérant à la constitution");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_SARL_pv_nomination_d_un_nouveau_gerant_a_la_constitution.docx");
@@ -2517,7 +2517,7 @@ public void pv_sarl_demission_gerant_nommination_nouveau_gerant_statutaire_Legal
     legalDocument.setShortName("pv sarl démission de gérant et nommination nouveau gérant statutaire");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("pv sarl démission de gérant et nommination nouveau gérant statutaire");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("dem ger SARL");
     legalDocument.setDescription("pv sarl démission de gérant et nommination nouveau gérant statutaire");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("pv_sarl_demission_gerant_nommination_nouveau_gerant_statutaire.docx");
@@ -2552,7 +2552,7 @@ public void age_sarl_pv_constatation_deces_gerant_nommination_nouveau_gerant_sta
     legalDocument.setShortName("age sarl pv constatation décés  de gérant et nommination nouveau gérant statutaire");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("age sarl pv constatation décés  de gérant et nommination nouveau gérant statutaire");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("dec ger SARL");
     legalDocument.setDescription("age sarl pv constatation décés  de gérant et nommination nouveau gérant statutaire");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("age_sarl_pv_constatation_deces_gerant_nommination_nouveau_gerant_statutaire.docx");
@@ -2587,7 +2587,7 @@ public void AGO_SARL_PV_renouvellement_du_mandat_du_gerant_LegalDocument(MongoTe
     legalDocument.setShortName("AGO SARL PV renouvellement du mandat du gérant");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO SARL PV renouvellement du mandat du gérant");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("ren ger SARL");
     legalDocument.setDescription("AGO SARL PV renouvellement du mandat du gérant");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_SARL_PV_renouvellement_du_mandat_du_gerant.docx");
@@ -2657,7 +2657,7 @@ public void AGO_SARL_PV_nommination_nouveau_CAC_LegalDocument(MongoTemplate mong
     legalDocument.setShortName("AGO SARL PV nommination du nouveau CAC");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO SARL PV nommination du nouveau CAC");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("const SARL");
     legalDocument.setDescription("AGO SARL PV nommination du nouveau CAC");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_SARL_PV_nommination_nouveau_CAC.docx");
@@ -2713,7 +2713,7 @@ public void AGO_SARL_PV_constatation_deces_CAC_nommination_nouveau_CAC_LegalDocu
     mongoTemplate.save(legalDocument);
 }
 
-@ChangeSet(order = "051", author = AuthorsConstants.GHABI_HAMZA , id = "051_AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument")
+/*@ChangeSet(order = "051", author = AuthorsConstants.GHABI_HAMZA , id = "051_AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument")
 public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument(MongoTemplate mongoTemplate) {     
     LegalDocument legalDocument;
 
@@ -2746,7 +2746,7 @@ public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_L
     legalDocument.setPrice(49.99f);
     legalDocument.setDocumentsRecommendationId(new ArrayList<>());
     mongoTemplate.save(legalDocument);
-}
+}*/
 
  @ChangeSet(order = "024", author = AuthorsConstants.BEN_ROMDHANE_AWATEF , id = "024-addagoALegalDocument")
 public void addagoALegalDocument(MongoTemplate mongoTemplate) {     
@@ -2762,7 +2762,7 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
     legalDocument.setShortName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau avec distribution des dividendes");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau avec distribution des dividendes");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("comp ger SARL");
     legalDocument.setDescription("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau avec distribution des dividendes");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("ago_Approbation_des_etats_financiers_avec_resultat_beneficiaire_avec_report_a_nouveau_avec_distribution_des_dividendes.docx");
@@ -2798,7 +2798,7 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
      legalDocument.setShortName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("comp ger SARL");
      legalDocument.setDescription("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("ago_Approbation_des_etats_financiers_avec_resultat_beneficiaire_avec_report_a_nouveau.docx");
@@ -2834,7 +2834,7 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
      legalDocument.setShortName("AGO Approbation des états financiers avec résultat bénéficiaire et distribution des dividendes");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO Approbation des états financiers avec résultat bénéficiaire et distribution des dividendes");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("comp ger SARL");
      legalDocument.setDescription("AGO Approbation des états financiers avec résultat bénéficiaire et distribution des dividendes");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_Approbation_des_etats_financiers_avec_resultat_beneficiaire_et_distribution_des_dividendes.docx");
@@ -2869,7 +2869,7 @@ public void Approbation_Etat_Financier_Resultat_deficitaire_distribution_dividen
     legalDocument.setShortName("AGO Approbation des états Financiers avec Resultat déficitaire et distribution des dividendes");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états Financiers avec Resultat déficitaire et distribution des dividendes");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("comp ger SARL");
     legalDocument.setDescription("AGO Approbation des états Financiers avec Resultat déficitaire et distribution des dividendes");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("Approbation_Etat_Financier_Resultat_deficitaire_distribution_dividendes.docx");
@@ -2904,7 +2904,7 @@ public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_report_nouveau_d
     legalDocument.setShortName("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("comp ger SARL");
     legalDocument.setDescription("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_Approbation_Etat_Financier_Resultat_deficitaire_report_nouveau_distribution_dividendes.docx");
