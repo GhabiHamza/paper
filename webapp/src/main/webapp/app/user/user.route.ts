@@ -11,7 +11,8 @@ import { tarifsRoute } from 'app/user/tarifs/tarifs.route';
 import { termsAndConditionsRoute } from 'app/user/terms-and-conditions/terms-and-conditions.route';
 import { professionalSolutionRoute } from 'app/user/professional-solution/professional-solution.route';
 import { aboutRoute } from './about-us/about-us.route';
-
+import { documentsRoute } from 'app/user/documents/documents.route';
+import { docRoute } from 'app/user/doc/doc.route';
 const USER_ROUTES = [
   howItWorksRoute,
   contactRoute,
@@ -24,7 +25,10 @@ const USER_ROUTES = [
   tarifsRoute,
   termsAndConditionsRoute,
   professionalSolutionRoute,
-  aboutRoute
+  aboutRoute,
+  documentsRoute,
+  docRoute,
+ 
 ];
 
 export const userRoutes: Routes = [
