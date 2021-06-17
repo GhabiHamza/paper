@@ -21,6 +21,11 @@ import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainMenuComponent } from 'app/layouts/main-menu/main-menu.component';
+import { SimpleScrollSpyModule } from "angular-simple-scroll-spy";
+
+
+
+
 
 @NgModule({
   imports: [
@@ -31,7 +36,8 @@ import { MainMenuComponent } from 'app/layouts/main-menu/main-menu.component';
     PaperlabsHomeModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     PaperlabsEntityModule,
-    PaperlabsAppRoutingModule
+    PaperlabsAppRoutingModule,
+    SimpleScrollSpyModule
   ],
   declarations: [
     JhiMainComponent,
@@ -40,7 +46,8 @@ import { MainMenuComponent } from 'app/layouts/main-menu/main-menu.component';
     PageRibbonComponent,
     ActiveMenuDirective,
     FooterComponent,
-    MainMenuComponent
+    MainMenuComponent,
+
   ],
   providers: [
     {

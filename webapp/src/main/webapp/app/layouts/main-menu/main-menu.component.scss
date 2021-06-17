@@ -193,6 +193,8 @@ li.dropdown-item.level3:hover {
 
 .item {
     color: #fff !important;
+    
+   
 }
 
 .dropdown-toggle::after {
@@ -386,11 +388,12 @@ li.dropdown-item.level3:hover {
     list-style: none;
     text-align: center;
 }
-
+entity-menu
 #menu-demo2 li {
     display: inline-block;
     position: relative;
     border-radius: 8px 8px 0 0;
+    
 }
 
 #menu-demo2 ul li {
@@ -400,6 +403,7 @@ li.dropdown-item.level3:hover {
 
 #menu-demo2 ul li:hover {
     border-radius: 0;
+    
 }
 
 #menu-demo2 ul li:last-child {
@@ -420,6 +424,7 @@ li.dropdown-item.level3:hover {
 
 #menu-demo2 li:hover ul {
     max-height: 15em;
+    
 }
 
 
@@ -525,7 +530,7 @@ li.dropdown-item.level3:hover {
 }
 
 ::ng-deep.mat-menu-panel.fixedmenu1 {
-    width: 400px;
+    width: 1000px;
 }
 
 ::ng-deep.cdk-overlay-pane {
@@ -573,3 +578,135 @@ li.dropdown-item.level3:hover {
     border-radius: 4px;
     outline: 0;
 }
+
+button {
+    background-color:Transparent;
+    color: Transparent;
+    border: Transparent; 
+    
+  }
+
+  .nos-doc-menu {
+    top: 0px;
+    left: 0px;
+    padding-top: 0px;
+    will-change: transform;
+    line-height: 3rem;
+    padding-left: 55%;
+    position: absolute;
+    transform: translate(0px, 40px);
+    width: 60rem;
+}
+
+/* a:hover {
+    background-color: gold; yassmine
+  } */
+
+  
+
+
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mega-menu {
+	background-color: #fff;
+  	display: none;
+  	left:-7%;
+  	position: absolute;
+  	text-align: left;
+    
+    height: 390%;
+    margin-left: 16.3%;
+}
+.mega-menu h3 {color: #444;}
+.mega-menu ul {
+	float: left;
+  	margin-bottom: 20px;
+  	margin-right: 40px;
+  	width: 230px;
+}
+.mega-menu ul:last-child {margin-right: 0;}
+.mega-menu a {
+	border-bottom: 1px solid #ddd;
+  	color: #323648;
+  	display: block;
+  	padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Calibri Light';
+}
+.mega-menu a:hover {color: #554dff;}
+
+
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.droppable:hover .mega-menu {display: block;}
+
+
+
+/* #Browser Clearfix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.round1 {
+    border: 2px solid #D3D3D3;
+    border-radius: 10px;
+  }
+
+  .title-scroll{
+    color: #051259 !important ; 
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0%;
+    font-weight: 800;
+    font-family: 'Calibri Light'; //'Times New Roman';
+    line-height: 2;
+}
+
+.nav-link {
+    display: block;
+    padding: 1.5rem 1rem;
+}   
+
+
+/*  @media only screen and (max-width: 450px) {
+    div.mega-menu {
+        left: 2%;
+        margin-left:0%;
+        width: 96%;
+        padding:1px;
+        margin-bottom: 0px;
+    }
+    }
+
+    @media only screen and (max-width: 450px) {
+        .mega-menu ul {
+            margin-bottom: 7px;
+        }
+        }
+
+        
+    @media only screen and (max-width: 450px) {
+        .mega-menu a  {
+            padding: 0px;
+        }
+        } */   //popup-mobile
+
+    @media screen and (min-width : 300px) 
+    and (max-width : 750px)
+     {
+    div.container  {
+      display: none;
+    }
+}
+@media screen and (min-width : 300px) 
+and (max-width : 750px)
+ {
+
+    .round1  {
+        border: 0px;
+        border-radius: 10px;
+}
+}
+
+

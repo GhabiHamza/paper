@@ -14,6 +14,7 @@ import { LegalDocumentService } from 'app/entities/legal-document/legal-document
 import { ILegalDocument } from 'app/shared/model/legal-document.model';
 import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 
+
 @Component({
   selector: 'jhi-main-menu',
   templateUrl: './main-menu.component.html',
@@ -144,4 +145,12 @@ export class MainMenuComponent implements OnInit, OnDestroy, AfterViewInit {
     this.windowScroll = window.pageYOffset;
     this.windowScroll >= this.elementPosition ? (this.sticky = true) : (this.sticky = false);
   }
+
+  open(alldocs){
+    alldocs.openMenu();
+    }
+  clos(alldocs){
+    alldocs.closMenu();
+      }
+  
 }
