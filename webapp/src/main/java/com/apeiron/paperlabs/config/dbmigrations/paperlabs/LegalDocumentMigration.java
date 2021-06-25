@@ -455,7 +455,7 @@ public class LegalDocumentMigration {
     
     
     
-  /*
+  
      
    @ChangeSet(order = "009", author = AuthorsConstants.RHIMI_RAMI , id = "009-addFormulairestatusLegalDocument")
     public void addFormulairestatusLegalDocument(MongoTemplate mongoTemplate) {     
@@ -478,7 +478,7 @@ public class LegalDocumentMigration {
         legalDocument.setShortName("Formulaire statuts");
         legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
         legalDocument.setFullName("FORMULAIRE STATUS");
-        legalDocument.setKeywords("FORMULAIRE STATUS  remunerations gr");
+        legalDocument.setKeywords("FORMULAIRE STATUS");
         legalDocument.setDescription("FORMULAIRE STATUS");
         legalDocument.setTemplatePreviewPath("empty_preview");
         legalDocument.setTemplateFilePath("formulaire_statuts_docx_model.docx");
@@ -505,7 +505,7 @@ public class LegalDocumentMigration {
         legalDocument.setDocumentsRecommendationId(new ArrayList<>());
 
         mongoTemplate.save(legalDocument);
-    } */
+    } 
    
     @ChangeSet(order = "010", author = AuthorsConstants.RHIMI_RAMI , id = "010-addconvocationagoLegalDocument")
 
@@ -1451,7 +1451,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("Proces verbal augmentataion de capital par conversion de créance");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("Proces verbal augmentataion de capital par conversion de créance");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("Proces verbal augmentataion de capital par conversion de créance");
      legalDocument.setDescription("Proces verbal augmentataion de capital par conversion de créance");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("Proces_verbal_augmentation_de_capital_par_conversion_de_creance.docx");
@@ -1786,7 +1786,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV constatation décès du CAC et nommination d'un nouveau CAC");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV constatation décès du CAC et nommination d'un nouveau CAC");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("AGO  nouveau CAC");
      legalDocument.setDescription("AGO SUARL PV constatation décès du CAC et nommination d'un nouveau CAC");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_constatation_deces_du_CAC_et_nomminatio_dun_nouveau_CAC.docx");
@@ -1860,7 +1860,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV renouvellement du mandat du CAC");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV renouvellement du mandat du CAC");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("AGO SUARL PV renouvellement du mandat du CAC");
      legalDocument.setDescription("AGO SUARL PV renouvellement du mandat du CAC");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_renouvellement_du_mandat_du_CAC.docx");
@@ -2046,7 +2046,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV démission du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV démission du gérant et nommination d'un nouveau gérant statutaire");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("AGO SUARL PV démission statutaire ");
      legalDocument.setDescription("AGO SUARL PV démission du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_SUARL_PV_demission_gerant_nommination_d_un_nouveau_gerant_statutaire.docx");
@@ -2187,7 +2187,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGO SUARL PV constatation décés du gérant et nommination d'un nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO SUARL PV constatation décés du gérant et nommination d'un nouveau gérant");
-     legalDocument.setKeywords("dec ger SUARL");
+     legalDocument.setKeywords("AGO dec ger SUARL");
      legalDocument.setDescription("AGO SUARL PV constatation décés du gérant et nommination d'un nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGO_SUARL_constatation_deces_gerant_nommination_nouveau_gerant.docx");
@@ -2223,7 +2223,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("AGE SUARL PV constatation décés du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGE SUARL PV constatation décés du gérant et nommination d'un nouveau gérant statutaire");
-     legalDocument.setKeywords("dec ger SUARL");
+     legalDocument.setKeywords("AGE dec ger SUARL");
      legalDocument.setDescription("AGE SUARL PV constatation décés du gérant et nommination d'un nouveau gérant statutaire");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("PV_AGE_SUARL_constatation_deces_gerant_nommination_nouveau_gerant_statutaire.docx");
@@ -2258,7 +2258,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("pv révocation de gérant et nommination nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("pv révocation de gérant et nommination nouveau gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("pv révocation 1");
      legalDocument.setDescription("pv révocation de gérant et nommination nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("pv_revocation_gerant_nommination_nouveau_gerant.docx");
@@ -2293,7 +2293,7 @@ public class LegalDocumentMigration {
      legalDocument.setShortName("pv démission de gérant et nommination nouveau gérant");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("pv démission de gérant et nommination nouveau gérant");
-     legalDocument.setKeywords("remunerations gr");
+     legalDocument.setKeywords("pv démission de gérant 2");
      legalDocument.setDescription("pv démission de gérant et nommination nouveau gérant");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("pv_demission_gerant_nommination_nouveau_gerant.docx");
@@ -2408,7 +2408,7 @@ public void ago_sarl_pv_constatation_deces_gerant_nommination_nouveau_gerant_Leg
     legalDocument.setShortName("ago sarl pv constatation décés  de gérant et nommination nouveau gérant");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("ago sarl pv constatation décés  de gérant et nommination nouveau gérant");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("ago sarl pv constatation décés  de gérant et nommination nouveau gérant");
     legalDocument.setDescription("ago sarl pv constatation décés  de gérant et nommination nouveau gérant");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("ago_sarl_pv_constatation_deces_gerant_nommination_nouveau_gerant.docx");
@@ -2447,7 +2447,7 @@ public void sarl_pv_revocation_gerant_nommination_nouveau_gerant_statutaire_Lega
     legalDocument.setShortName("pv révocation de gérant et nommination nouveau gérant statutaire");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("pv révocation de gérant et nommination nouveau gérant statutaire");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("pv révocation de gérant et nommination nouveau gérant statutaire");
     legalDocument.setDescription("pv révocation de gérant et nommination nouveau gérant statutaire");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("sarl_pv_revocation_gerant_nommination_nouveau_gerant_statutaire.docx");
@@ -2482,7 +2482,7 @@ public void sarl_pv_nommination_nouveau_gerant_statutaire_LegalDocument(MongoTem
     legalDocument.setShortName("pv sarl nommination nouveau gérant statutaire");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("pv sarl nommination nouveau gérant statutaire");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("pv sarl nommination nouveau gérant statutaire");
     legalDocument.setDescription("pv sarl nommination nouveau gérant statutaire");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("sarl_pv_nommination_nouveau_gerant_statutaire.docx");
@@ -2587,7 +2587,7 @@ public void AGO_SARL_PV_renouvellement_du_mandat_du_gerant_LegalDocument(MongoTe
     legalDocument.setShortName("AGO SARL PV renouvellement du mandat du gérant");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO SARL PV renouvellement du mandat du gérant");
-    legalDocument.setKeywords("ren ger SARL");
+    legalDocument.setKeywords("AGO SARL PV renouvellement du mandat du gérant");
     legalDocument.setDescription("AGO SARL PV renouvellement du mandat du gérant");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_SARL_PV_renouvellement_du_mandat_du_gerant.docx");
@@ -2622,7 +2622,7 @@ public void AGO_SARL_PV_renouvellement_du_mandat_CAC_LegalDocument(MongoTemplate
     legalDocument.setShortName("AGO SARL PV renouvellement du mandat CAC");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO SARL PV renouvellement du mandat CAC");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("AGO SARL PV renouvellement du mandat CAC");
     legalDocument.setDescription("AGO SARL PV renouvellement du mandat CAC");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_SARL_PV_renouvellement_du_mandat_CAC.docx");
@@ -2692,7 +2692,7 @@ public void AGO_SARL_PV_constatation_deces_CAC_nommination_nouveau_CAC_LegalDocu
     legalDocument.setShortName("AGO SARL PV constatation du décés CAC et nommination du nouveau CAC");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO SARL PV constatation du décés CAC et nommination du nouveau CAC");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("AGO SARL PV constatation du décés CAC et nommination du nouveau CAC");
     legalDocument.setDescription("AGO SARL PV constatation du décés CAC et nommination du nouveau CAC");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_SARL_PV_constatation_deces_CAC_nommination_nouveau_CAC.docx");
@@ -2713,7 +2713,7 @@ public void AGO_SARL_PV_constatation_deces_CAC_nommination_nouveau_CAC_LegalDocu
     mongoTemplate.save(legalDocument);
 }
 
-/*@ChangeSet(order = "051", author = AuthorsConstants.GHABI_HAMZA , id = "051_AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument")
+@ChangeSet(order = "051", author = AuthorsConstants.GHABI_HAMZA , id = "051_AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument")
 public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument(MongoTemplate mongoTemplate) {     
     LegalDocument legalDocument;
 
@@ -2727,7 +2727,7 @@ public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_L
     legalDocument.setShortName("AGO Approbation des états Financiers avec Resultat déficitaire avec report à nouveau");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états Financiers avec Resultat déficitaire avec report à nouveau");
-    legalDocument.setKeywords("remunerations gr");
+    legalDocument.setKeywords("AGO Approbation 3");
     legalDocument.setDescription("AGO Approbation des états Financiers avec Resultat déficitaire avec report à nouveau");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau.docx");
@@ -2746,7 +2746,7 @@ public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_L
     legalDocument.setPrice(49.99f);
     legalDocument.setDocumentsRecommendationId(new ArrayList<>());
     mongoTemplate.save(legalDocument);
-}*/
+}
 
  @ChangeSet(order = "024", author = AuthorsConstants.BEN_ROMDHANE_AWATEF , id = "024-addagoALegalDocument")
 public void addagoALegalDocument(MongoTemplate mongoTemplate) {     
@@ -2762,7 +2762,7 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
     legalDocument.setShortName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau avec distribution des dividendes");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau avec distribution des dividendes");
-    legalDocument.setKeywords("comp ger SARL");
+    legalDocument.setKeywords("AGO Approbation 2 ");
     legalDocument.setDescription("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau avec distribution des dividendes");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("ago_Approbation_des_etats_financiers_avec_resultat_beneficiaire_avec_report_a_nouveau_avec_distribution_des_dividendes.docx");
@@ -2797,8 +2797,8 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
      legalDocument.setId("5dad0d7dd1a76c479c02");
      legalDocument.setShortName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
-     legalDocument.setFullName("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau");
-     legalDocument.setKeywords("comp ger SARL");
+     legalDocument.setFullName("AGO Approbation report à nouveau 1");
+     legalDocument.setKeywords("AGO Approbation report à nouveau 1");
      legalDocument.setDescription("AGO Approbation des états financiers avec résultat bénéficiaire avec report à nouveau");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("ago_Approbation_des_etats_financiers_avec_resultat_beneficiaire_avec_report_a_nouveau.docx");
@@ -2820,7 +2820,7 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
  }
 
 
- @ChangeSet(order = "068", author = AuthorsConstants.BEN_ROMDHANE_AWATEF , id = "068_AGO_Approbation_des_etats_financiers_avec_resultat_beneficiaire_et_distribution_des_dividendes_LegalDocument")
+ @ChangeSet(order = "069", author = AuthorsConstants.BEN_ROMDHANE_AWATEF , id = "069_AGO_Approbation_des_etats_financiers_avec_resultat_beneficiaire_et_distribution_des_dividendes_LegalDocument")
  public void AGO_Approbation_des_etats_financiers_avec_resultat_beneficiaire_et_distribution_des_dividendes_LegalDocument(MongoTemplate mongoTemplate) {     
      LegalDocument legalDocument;
 
@@ -2834,7 +2834,7 @@ public void addagoALegalDocument(MongoTemplate mongoTemplate) {
      legalDocument.setShortName("AGO Approbation des états financiers avec résultat bénéficiaire et distribution des dividendes");
      legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
      legalDocument.setFullName("AGO Approbation des états financiers avec résultat bénéficiaire et distribution des dividendes");
-     legalDocument.setKeywords("comp ger SARL");
+     legalDocument.setKeywords("AGO Aapp bénéficiaire ");
      legalDocument.setDescription("AGO Approbation des états financiers avec résultat bénéficiaire et distribution des dividendes");
      legalDocument.setTemplatePreviewPath("empty_preview");
      legalDocument.setTemplateFilePath("AGO_Approbation_des_etats_financiers_avec_resultat_beneficiaire_et_distribution_des_dividendes.docx");
@@ -2869,7 +2869,7 @@ public void Approbation_Etat_Financier_Resultat_deficitaire_distribution_dividen
     legalDocument.setShortName("AGO Approbation des états Financiers avec Resultat déficitaire et distribution des dividendes");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états Financiers avec Resultat déficitaire et distribution des dividendes");
-    legalDocument.setKeywords("comp ger SARL");
+    legalDocument.setKeywords("SARL AGO Approbation 4 ");
     legalDocument.setDescription("AGO Approbation des états Financiers avec Resultat déficitaire et distribution des dividendes");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("Approbation_Etat_Financier_Resultat_deficitaire_distribution_dividendes.docx");
@@ -2904,7 +2904,7 @@ public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_report_nouveau_d
     legalDocument.setShortName("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
     legalDocument.setAutoFillConcernedEntities(autoFillConcernedEntities);
     legalDocument.setFullName("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
-    legalDocument.setKeywords("comp ger SARL");
+    legalDocument.setKeywords("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
     legalDocument.setDescription("AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes");
     legalDocument.setTemplatePreviewPath("empty_preview");
     legalDocument.setTemplateFilePath("AGO_Approbation_Etat_Financier_Resultat_deficitaire_report_nouveau_distribution_dividendes.docx");
