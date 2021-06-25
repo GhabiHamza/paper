@@ -3,7 +3,7 @@ import { LegalDocumentDescriptionComponent } from 'app/user/legal-document-descr
 import { LegalDocumentResolve } from 'app/entities/legal-document/legal-document.route';
 
 export const legalDocumentDescriptionRoute: Route = {
-  path: 'legal-document-description/:id',
+  path: 'documents/legal-document-description/:id',
   component: LegalDocumentDescriptionComponent,
   resolve: {
     legalDocument: LegalDocumentResolve

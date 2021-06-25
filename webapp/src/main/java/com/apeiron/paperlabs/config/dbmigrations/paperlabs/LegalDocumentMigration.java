@@ -455,7 +455,7 @@ public class LegalDocumentMigration {
     
     
     
-  /*
+  
      
    @ChangeSet(order = "009", author = AuthorsConstants.RHIMI_RAMI , id = "009-addFormulairestatusLegalDocument")
     public void addFormulairestatusLegalDocument(MongoTemplate mongoTemplate) {     
@@ -505,7 +505,7 @@ public class LegalDocumentMigration {
         legalDocument.setDocumentsRecommendationId(new ArrayList<>());
 
         mongoTemplate.save(legalDocument);
-    } */
+    } 
    
     @ChangeSet(order = "010", author = AuthorsConstants.RHIMI_RAMI , id = "010-addconvocationagoLegalDocument")
 
@@ -2713,7 +2713,7 @@ public void AGO_SARL_PV_constatation_deces_CAC_nommination_nouveau_CAC_LegalDocu
     mongoTemplate.save(legalDocument);
 }
 
-/*@ChangeSet(order = "051", author = AuthorsConstants.GHABI_HAMZA , id = "051_AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument")
+@ChangeSet(order = "051", author = AuthorsConstants.GHABI_HAMZA , id = "051_AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument")
 public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_LegalDocument(MongoTemplate mongoTemplate) {     
     LegalDocument legalDocument;
 
@@ -2746,7 +2746,7 @@ public void AGO_Approbation_Etat_Financier_Resultat_deficitaire_Report_nouveau_L
     legalDocument.setPrice(49.99f);
     legalDocument.setDocumentsRecommendationId(new ArrayList<>());
     mongoTemplate.save(legalDocument);
-}*/
+}
 
  @ChangeSet(order = "024", author = AuthorsConstants.BEN_ROMDHANE_AWATEF , id = "024-addagoALegalDocument")
 public void addagoALegalDocument(MongoTemplate mongoTemplate) {     

@@ -225,6 +225,13 @@
        <div    class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
            + frais administratifs</div>
        </div>
+       <div id="" class="sarl-suarl" ><h5> SARL-Approbation</h5></div>
+       <div class="tab">
+       <div class="tab-column-left"><div class="tab-contracts" *ngFor="let legalDocument of filterByKeyword('comp ger SARL')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+       </div>
+       <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+          + frais administratifs</div>
+       </div>
        
        <!-- 
        <div class="tab">

@@ -1,4 +1,3 @@
-
 import { Component, OnInit, OnDestroy, AfterViewInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 import { LoginService } from 'app/core/login/login.service';
 import { JhiAlertService, JhiEventManager, JhiLanguageService } from 'ng-jhipster';
@@ -20,9 +19,6 @@ import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
   templateUrl: './documents.component.html',
   styleUrls: ['./documents.component.scss']
 })
-
-
-
 export class DocumentsComponent implements OnInit, OnDestroy, AfterViewInit {
   modalRef: NgbModalRef;
   authSubscription: Subscription;
@@ -37,7 +33,6 @@ export class DocumentsComponent implements OnInit, OnDestroy, AfterViewInit {
   elementPosition: any;
   section = 'home-section';
   numberOfLegalDocumentsToShow = 5;
-
 
   constructor(
     private loginService: LoginService,
@@ -120,8 +115,6 @@ export class DocumentsComponent implements OnInit, OnDestroy, AfterViewInit {
     } else return null;
   }
 
-
-
   protected onError(errorMessage: string) {
     this.jhiAlertService.error(errorMessage, null, null);
   }
@@ -152,10 +145,3 @@ export class DocumentsComponent implements OnInit, OnDestroy, AfterViewInit {
     this.windowScroll >= this.elementPosition ? (this.sticky = true) : (this.sticky = false);
   }
 }
-
-
-
-
-
-
-
