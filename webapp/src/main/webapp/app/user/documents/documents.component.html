@@ -194,12 +194,112 @@
     </div>
     
        <div id="" class="sarl-suarl" ><h5> SARL-Constitution</h5></div>
+
        <div class="tab">
-       <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('const SARL')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
-       </div>
-       <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
-          + frais administratifs</div>
-       </div>
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('FORMULAIRE STATUS')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+           + frais administratifs</div>
+        </div>
+
+
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('pv sarl nommination nouveau gérant statutaire')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('pv révocation de gérant et nommination nouveau gérant statutaire')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('ago sarl pv constatation décés  de gérant et nommination nouveau gérant')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO SARL PV renouvellement du mandat du gérant')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('pv révocation 1')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('pv démission de gérant 2')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+             + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('pv révocation de gérant et nommination nouveau gérant statutaire')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="sarl-suarl"><h5>SARL-CAC</h5></div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('const SARL')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+            </div>
+            <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+               + frais administratifs</div>
+            </div>
+        <div class="tab">
+            <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO SARL PV renouvellement du mandat CAC')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+                + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO SARL PV constatation du décés CAC et nommination du nouveau CAC')" [routerLink]="['legal-document-description/', legalDocument.id]" ><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div>
+        </div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+                + frais administratifs</div>
+        </div>
+
+        <div class="sarl-suarl"><h5>SARL-Approbation</h5></div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO Approbation report à nouveau 1')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO Aapp bénéficiaire')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO Approbation 2')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+
+
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO Approbation des états Financiers avec Resultat déficitaire avec report nouveau avec distribution des dividendes')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO Approbation 3')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO Approbation 4')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+             + frais administratifs</div>
+        </div>
+
+
        <div class="sarl-suarl"><h5>SARL-Gérance</h5></div>
        <div class="tab">
        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('nom ger SARL')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
@@ -238,8 +338,9 @@
        <div class="tab-column-left"><h4><a href="">Comptes annuels</a></h4>
        </div>
        </div> -->
+
        <div class="">
-       <div  class="sarl-suarl"><h5>SARL-Capital</h5>
+       <div  class="sarl-suarl"><h5>SARL-Augmentation</h5>
        </div>
        </div>
        <div class="tab">
@@ -247,14 +348,35 @@
        <div  class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
            + frais administratifs</div>
        </div>
-       <div class="">
-       <div  class="sarl-suarl"><h5>SUARL-Constitution</div></h5>
-       </div>
        <div class="tab">
-       <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('const SUARL')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
-       <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
-           + frais administratifs</div>
-       </div>
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('Proces verbal augmentataion de capital par conversion de créance')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat"  (click)="collapseNavbar()">{{legalDocument.shortName}} </div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+
+
+
+  
+
+       <div class="">
+        <div class="sarl-suarl"><h5>SUARL-CAC</div></h5>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('const SUARL')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
+        <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO SUARL PV renouvellement du mandat du CAC')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
+            <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO  nouveau CAC')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
+            <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+
        <div class="">
        <div class=""><h5>SUARL-Gérance</div></h5>
        </div>
@@ -263,6 +385,21 @@
            <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
            + frais administratifs</div>
        </div>
+       <div class="tab">
+            <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGE dec ger SUARL')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
+            <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+            + frais administratifs</div>
+        </div>
+        <div class="tab">
+            <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO SUARL PV démission statutaire')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
+                <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+                + frais administratifs</div>
+        </div>
+        <div class="tab">
+            <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('AGO dec ger SUARL')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
+                <div class="tab-column-right tab-column-right-text">À partir de 69DT<br/>
+                + frais administratifs</div>
+        </div>
    
        <div class="tab">
        <div class="tab-column-left"><div *ngFor="let legalDocument of filterByKeyword('nom2 ger SUARL')" [routerLink]="['legal-document-description/', legalDocument.id]"><div class="contrat" (click)="collapseNavbar()">{{legalDocument.shortName}}</div></div></div>
