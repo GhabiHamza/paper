@@ -18,7 +18,7 @@
                         *ngFor="let legalDocumentSearchResult of legalDocumentsSearchResult">
                         <fa-icon id="document-icon" class="col-1 col-sm-1 col-xl-1" [icon]="'file-alt'"></fa-icon>
                         <p class="artist-name col-8 col-sm-8 col-xl-8"
-                           [routerLink]="['user/legal-document-description/', legalDocumentSearchResult.id]">{{legalDocumentSearchResult.fullName}}</p>
+                           [routerLink]="['user/documents/legal-document-description/', legalDocumentSearchResult.id]">{{legalDocumentSearchResult.fullName}}</p>
                         <span class="short-name col-1 col-sm-1 col-xl-1"> {{legalDocumentSearchResult.shortName}}</span>
                         <a class="remplir-button col-1 col-sm-1 col-xl-1" [routerLink]="['stepper/doc/', legalDocumentSearchResult.id]"><img
                             class="remplir" src="../../../../content/images/edit.png" alt="edit"></a>
