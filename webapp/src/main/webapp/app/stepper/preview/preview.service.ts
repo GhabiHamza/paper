@@ -61,6 +61,8 @@ import { SarlApprobationDeficitaireDistributionDividendesComponent } from './sar
 import { AgoSarlApprobationDeficitaireReportNouveauBeneficesDividendesComponent } from './ago-sarl-approbation-deficitaire-report-nouveau-benefices-dividendes/ago-sarl-approbation-deficitaire-report-nouveau-benefices-dividendes.component';
 import { SarlAugmentationCapitalConversionCreanceComponent } from './sarl-augmentation-capital-conversion-creance/sarl-augmentation-capital-conversion-creance.component';
 import { PvAgeAugmentationDeCapitalNumeraireComponent } from './pv-age-augmentation-de-capital-numeraire/pv-age-augmentation-de-capital-numeraire.component';
+import { AgeSarlPvDemissionGerantNomminationNouveauGerantStatutaireComponent } from './age-sarl-pv-demission-gerant-nommination-nouveau-gerant-statutaire/age-sarl-pv-demission-gerant-nommination-nouveau-gerant-statutaire.component';
+import { AgoSarlPvConstatationDecesGerantNomminationNouveauGerantComponent } from './ago-sarl-pv-constatation-deces-gerant-nommination-nouveau-gerant/ago-sarl-pv-constatation-deces-gerant-nommination-nouveau-gerant.component';
 
 @Injectable({ providedIn: 'root' })
 export class PreviewModalService {
@@ -165,13 +167,13 @@ export class PreviewModalService {
     } else if (legalDocumentShortName === 'pv démission de gérant et nommination nouveau gérant') {
       modalRef = this.modalService.open(PvSarlDemissionGerantNomminationNouveauGerantComponent);
     } else if (legalDocumentShortName === 'ago sarl pv constatation décés  de gérant et nommination nouveau gérant') {
-      modalRef = this.modalService.open(PvSarlDemissionGerantNomminationNouveauGerantComponent);
+      modalRef = this.modalService.open(AgoSarlPvConstatationDecesGerantNomminationNouveauGerantComponent);
     } else if (legalDocumentShortName === 'pv révocation de gérant et nommination nouveau gérant statutaire') {
       modalRef = this.modalService.open(PvSarlRevocationGerantNomminationNouveauGerantStatutaireComponent);
     } else if (legalDocumentShortName === 'pv sarl nommination nouveau gérant statutaire') {
       modalRef = this.modalService.open(PvSarlNomminationNouveauGerantStatutaireComponent);
     } else if (legalDocumentShortName === 'pv sarl démission de gérant et nommination nouveau gérant statutaire') {
-      modalRef = this.modalService.open(PvSarlNomminationNouveauGerantStatutaireComponent);
+      modalRef = this.modalService.open(AgeSarlPvDemissionGerantNomminationNouveauGerantStatutaireComponent);
     } else if (legalDocumentShortName === 'age sarl pv constatation décés  de gérant et nommination nouveau gérant statutaire') {
       modalRef = this.modalService.open(AgeSarlPvConstatationDecesGerantNomminationNouveauGerantStatutaireComponent);
     } else if (legalDocumentShortName === 'AGO SARL PV renouvellement du mandat du gérant') {

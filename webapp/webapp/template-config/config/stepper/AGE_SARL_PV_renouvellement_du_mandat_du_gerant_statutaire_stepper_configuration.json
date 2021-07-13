@@ -4,7 +4,7 @@
         
 		{
       "id": "step_informations_sur_societe",
-      "title": "Informations sur société",
+      "title": "Informations sur la société",
       "description": "",
       "blocs": ["bloc_details_societe"],
       "visibility": true
@@ -202,7 +202,7 @@
 			"id": "bloc_cacher_11",
 			"title": "Est-ce qu’il y’a d’autres personnes que vous souhaitez mentionner dans le PV ?",
 			"description": "",
-			"inputs": ["input_cacher_11"],
+			"inputs": ["input_cacher_11","input_cacher_11_non"],
 			"visibility": true
 		},
 
@@ -750,17 +750,33 @@
 		},
 		{
 			"id": "input_cacher_11",
-			"type": "checkbox",
+			"type": "radio",
 			"description": "",
-			"name": "",
-			"label": "personne(s) présente(s)",
+			"name": "input_cacher_11_non",
+			"label": "Oui",
 			"placeHolder": "",
 			"help": "il peut s’agir du nouveau gérant",
 			"options": [],
-			"value": "",
+			"value": "false",
 			"bookmarkIdPerValue": {
-				"false": ["cacher_cacher_2", "cacher_cacher_3", "cacher_cacher_4", "cacher_cacher_5", "cacher_cacher_6", "cacher_cacher_7"],
-				"true": []
+				"false": []
+				
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_cacher_11_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_cacher_11_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "true",
+			"bookmarkIdPerValue": {
+				"true": ["cacher_cacher_2", "cacher_cacher_3", "cacher_cacher_4", "cacher_cacher_5", "cacher_cacher_6", "cacher_cacher_7"]
+				
 			},
 			"visibility": true
 		},

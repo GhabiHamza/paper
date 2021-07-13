@@ -6,16 +6,22 @@
       "inputId": "input_cacher_11",
       "valuesConstraints": [
         {
-          "value": "true",
+          "value": "false",
           "constraints": [
             {
               "elementId": "input_question_11",
               "visibility": true
             }
           ]
-        },
+        }
+       
+      ]
+    },
+	{
+      "inputId": "input_cacher_11_non",
+      "valuesConstraints": [
         {
-          "value": "false",
+          "value": "true",
           "constraints": [
             {
               "elementId": "input_question_11",
@@ -23,6 +29,7 @@
             }
           ]
         }
+       
       ]
     },
   

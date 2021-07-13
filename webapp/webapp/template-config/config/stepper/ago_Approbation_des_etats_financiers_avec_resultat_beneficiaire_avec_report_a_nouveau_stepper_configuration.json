@@ -128,7 +128,8 @@
       "description": "",
       "inputs": [
 	    
-	    "input_question_11"
+	    "input_question_11",
+		"input_question_11_non"
 			],
       "visibility": true
     },
@@ -151,7 +152,7 @@
     },
 	
 	
-  {"id": "bloc_cacher_12","title": "Est-ce qu’il y’a d’autres personnes que vous souhaitez mentionner dans le PV ?","description": "","inputs": ["input_cacher_12"],"visibility": true},
+  {"id": "bloc_cacher_12","title": "Est-ce qu’il y’a d’autres personnes que vous souhaitez mentionner dans le PV ?","description": "","inputs": ["input_cacher_12","input_cacher_12_non"],"visibility": true},
   
   {"id": "bloc_question_12","title": "","description": "","inputs": ["input_question_12"],"visibility": true},
   {"id": "bloc_question_12_1","title": "","description": "","inputs": ["input_nom_prénom_12_1","input_qestion_12_1"],"visibility": false},
@@ -397,8 +398,8 @@
   {"id": "input_nom_prénom_10_11","type": "text","description": "","name": "input_nom_prénom_10_11","label": "","placeHolder": "nom et prénom ou raison sociale","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["nom_prenom_phy_11","nom_prenom_phy_11_1"]},"visibility": true},
   {"id": "input_nom_prénom_10_12","type": "text","description": "","name": "input_nom_prénom_10_12","label": "","placeHolder": "nom et prénom ou raison sociale","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["nom_prenom_phy_12","nom_prenom_phy_12_1"]},"visibility": true},
   
-	{"id": "input_question_11","type": "checkbox","description": "","name": "","label": "Oui/Non","placeHolder": "","help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale]","options": [],"value": "","bookmarkIdPerValue": {"false": ["bookmark_question_11_bloc_oui","bookmark_question_11_oui_1","bookmark_question_11_oui_2","bookmark_question_11_oui_3"],"true":["bookmark_question_11_non"]},"visibility": true},
-
+	{"id": "input_question_11","type": "radio","description": "","name": "input_question_11_non","label": "Oui","placeHolder": "","help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale]","options": [],"value": "false","bookmarkIdPerValue": {"false":["bookmark_question_11_non"]},"visibility": true},
+    {"id": "input_question_11_non","type": "radio","description": "","name": "input_question_11_non","label": "Non","placeHolder": "","help": "","options": [],"value": "true","bookmarkIdPerValue": {"true": ["bookmark_question_11_bloc_oui","bookmark_question_11_oui_1","bookmark_question_11_oui_2","bookmark_question_11_oui_3"]},"visibility": true},
 
     {"id": "input_question_personne_physique","type": "radio","description": "","name": "input_question_personne_morale","label": "Personne Physique","placeHolder": "","help": "","options": [],"value": "false","bookmarkIdPerValue": {"false": ["bookmark_personne_physique"]},"visibility":false},
     {"id": "input_question_personne_morale","type": "radio","description": "","name": "input_question_personne_morale","label": "Personne Morale","placeHolder": "","help": "","options": [],"value": "true","bookmarkIdPerValue": {"true": ["bookmark_personne_morale","bookmark_personne_morale1"]},"visibility":false},
@@ -409,8 +410,11 @@
 	
 
   
-  {"id": "input_cacher_12","type": "checkbox","description": "","name": "","label": "personne(s) présente(s)", "placeHolder": "","help": "","options": [],"value": "",
-    "bookmarkIdPerValue": {"false": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"],"true": []},"visibility": true},
+  {"id": "input_cacher_12","type": "radio","description": "","name": "input_cacher_11_non","label": "Oui", "placeHolder": "","help": "il peut s’agir du nouveau gérant","options": [],"value": "false",
+      "bookmarkIdPerValue": {"false": []},"visibility": true},
+	
+	{"id": "input_cacher_12_non","type": "radio","description": "","name": "input_cacher_11_non","label": "Non", "placeHolder": "","help": "","options": [],"value": "true",
+      "bookmarkIdPerValue": {"true": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"]},"visibility": true},
 	
   {"id": "input_question_12","type": "select_input_generator","description": "","name": "input_question_12",
   "label": "","placeHolder": "",

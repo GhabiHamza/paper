@@ -3,7 +3,7 @@
   
    {
       "id": "step_informations_sur_societe",
-      "title": "Informations sur société",
+      "title": "Informations sur la société",
       "description": "",
       "blocs": ["bloc_details_societe"],
       "visibility": true
@@ -122,7 +122,8 @@
       "title": "Est-ce que la société a un commissaire aux comptes ?",
       "description": "",
       "inputs": [
-	    "input_question_11"
+	    "input_question_11",
+		"input_question_11_non"
 	    
 			],
       "visibility": true
@@ -410,8 +411,8 @@
   {"id": "input_nom_prénom_10_11","type": "text","description": "","name": "input_nom_prénom_10_11","label": "","placeHolder": "nom et prénom ou raison sociale","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["nom_prenom_phy_11","nom_prenom_phy_11_1"]},"visibility": true},
   {"id": "input_nom_prénom_10_12","type": "text","description": "","name": "input_nom_prénom_10_12","label": "","placeHolder": "nom et prénom ou raison sociale","help": "","options": [],"value": "","bookmarkIdPerValue": {"text": ["nom_prenom_phy_12","nom_prenom_phy_12_1"]},"visibility": true},
   
-	{"id": "input_question_11","type": "checkbox","description": "","name": "","label": "Oui/Non","placeHolder": "","help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale]","options": [],"value": "","bookmarkIdPerValue": {"false":["bookmark_question_11_bloc","bookmark_question_11_oui_1","bookmark_question_11_oui_2","bookmark_question_11_oui_3"],"true":[]},"visibility": true},
-
+{"id": "input_question_11","type": "radio","description": "","name": "input_question_11_non","label": "Oui","placeHolder": "","help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale]","options": [],"value": "false","bookmarkIdPerValue": {"true":[]},"visibility": true},
+	{"id": "input_question_11_non","type": "radio","description": "","name": "input_question_11_non","label": "Non","placeHolder": "","help": "","options": [],"value": "true","bookmarkIdPerValue": {"true":["bookmark_question_11_bloc","bookmark_question_11_oui_1","bookmark_question_11_oui_2","bookmark_question_11_oui_3"]},"visibility": true},
 
     {"id": "input_question_personne_physique","type": "radio","description": "","name": "input_question_personne_morale","label": "Personne Physique","placeHolder": "","help": "","options": [],"value": "false","bookmarkIdPerValue": {"false": ["bookmark_personne_physique"]},"visibility":false},
     {"id": "input_question_personne_morale","type": "radio","description": "","name": "input_question_personne_morale","label": "Personne Morale","placeHolder": "","help": "","options": [],"value": "true","bookmarkIdPerValue": {"true": ["bookmark_personne_morale","bookmark_personne_morale_1"]},"visibility":false},

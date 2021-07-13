@@ -84,7 +84,7 @@
       "inputId": "input_question_11",
       "valuesConstraints": [
         {
-          "value": "true",
+          "value": "false",
           "constraints": [
             
 			{
@@ -95,7 +95,7 @@
           ]
         },
 		{
-          "value": "true",
+          "value": "false",
           "constraints": [
 			{
               "elementId": "input_question_personne_morale",
@@ -107,10 +107,10 @@
       ]
     },
 	{
-      "inputId": "input_question_11",
+      "inputId": "input_question_11_non",
       "valuesConstraints": [
         {
-          "value": "false",
+          "value": "true",
           "constraints": [
             
 			{
@@ -121,7 +121,7 @@
           ]
         },
 		{
-          "value": "false",
+          "value": "true",
           "constraints": [
             
 			{
@@ -188,7 +188,7 @@
       "inputId": "input_cacher_12",
       "valuesConstraints": [
         {
-          "value": "true",
+          "value": "false",
           "constraints": [
             
 			{
@@ -201,10 +201,10 @@
       ]
     },
 		{
-      "inputId": "input_cacher_12",
+      "inputId": "input_cacher_12_non",
       "valuesConstraints": [
         {
-          "value": "false",
+          "value": "true",
           "constraints": [
             
 			{

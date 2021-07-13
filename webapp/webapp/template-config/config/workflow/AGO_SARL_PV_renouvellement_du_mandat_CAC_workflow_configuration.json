@@ -12,7 +12,7 @@
 				}
 				
 			]
-		},
+	},
 	{
 			"inputId": "input_gerant_non",
 			"valuesConstraints": [{
@@ -82,7 +82,7 @@
 		{
 			"inputId": "input_cacher_11",
 			"valuesConstraints": [{
-					"value": "true",
+					"value": "false",
 					"constraints": [{
 						"elementId": "input_choix",
 						"visibility": true
@@ -92,9 +92,9 @@
 			]
 		},
 		{
-			"inputId": "input_cacher_11",
+			"inputId": "input_cacher_11_non",
 			"valuesConstraints": [{
-					"value": "false",
+					"value": "true",
 					"constraints": [{
 						"elementId": "input_choix",
 						"visibility": false

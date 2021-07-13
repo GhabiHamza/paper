@@ -1,6 +1,12 @@
 {
 	"steps": [
-
+        {
+      "id": "step_informations_sur_societe",
+      "title": "Informations sur la société",
+      "description": "",
+      "blocs": ["bloc_details_societe"],
+      "visibility": true
+        },
 		{
 			"id": "step_informations_sur_lassemblee",
 			"title": "Informations sur l'assemblée",
@@ -16,9 +22,9 @@
 
 				"bloc_cacher_11",
 				"bloc_question_11",
-				"bloc_question_11_1", "bloc_question_11_2", "bloc_question_11_3", "bloc_question_11_4", "bloc_question_11_5",
+				"bloc_question_11_1", "bloc_question_11_2", "bloc_question_11_3", "bloc_question_11_4", "bloc_question_11_5"
 
-				"bloc_question_12"
+				
 
 			],
 			"visibility": true
@@ -47,15 +53,28 @@
 	],
 
 
-	"blocs": [{
+	"blocs": [
+	{
+      "id": "bloc_details_societe",
+      "title": "",
+      "description": "",
+      "inputs": [
+	    "input_denomination_sociale",
+		"input_siege_social",
+        "input_capital_sociale_en_dinars",
+		"input_identifiant_unique"
+		
+		
+		
+		],
+      "visibility": true
+    },
+	{
 			"id": "bloc_details_assemblee",
 			"title": "",
 			"description": "",
 			"inputs": [
-				"input_denomination_sociale",
-				"input_capital_sociale_en_dinars",
-				"input_siege_social",
-				"input_identifiant_unique",
+				
 				"input_date_de_reunion_de_lassemblee",
 				"input_heure_de_debut_de_la_reunion_de_lassemblee",
 				"input_heure_de_fin_de_la_reunion_de_lassemblee"
@@ -81,7 +100,7 @@
 
 		{
 			"id": "bloc_question_10_phy_9_1",
-			"title": "Nombre de personnes présentés?",
+			"title": "Quel est le nombre d'associés présents ou représentés ? ",
 			"description": "",
 			"inputs": ["input_question_9_1"],
 			"visibility": true
@@ -178,9 +197,9 @@
 		
 		{
 			"id": "bloc_cacher_11",
-			"title": "Autre(s) personne(s) présente(s)?",
+			"title": "Est-ce qu’il y’a d’autres personnes que vous souhaitez mentionner dans le PV ?",
 			"description": "",
-			"inputs": ["input_cacher_11"],
+			"inputs": ["input_cacher_11","input_cacher_11_non"],
 			"visibility": true
 		},
 
@@ -237,20 +256,6 @@
 			"visibility": false
 		},
 
-		{
-			"id": "bloc_question_12",
-			"title": "Est-ce que les associés présent ou représentés représentent plus de 50% du capital social de la société ?",
-			"description": "",
-			"inputs": [
-				"input_question_12_oui",
-				"input_question_12_non"
-
-				
-
-
-			],
-			"visibility": true
-		},
 		{
 			"id": "bloc_resultat_exercice_beneficiare_deficiare",
 			"title": "",
@@ -517,11 +522,11 @@
 		{
 			"id": "input_question_9_1",
 			"type": "select_input_generator",
-			"description": "",
+			"description": "Indiquez le nom et le prénom de l’associé physique présent ou la raison sociale suivie par[nom prénom du représentant de la personne morale]",
 			"name": "input_question_9_1",
 			"label": "",
 			"placeHolder": "",
-			"help": "Indiqué le nom et le prénom de l’associé physique présent ou la raison sociale suivie par représenté par [nom pénom du représentant de la personne morale]",
+			"help": "",
 			"options": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
 			"value": "",
 			"bookmarkIdPerValue": {
@@ -555,7 +560,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_1",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -570,7 +575,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_2",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -585,7 +590,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_3",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -600,7 +605,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_4",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -615,7 +620,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_5",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -630,7 +635,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_6",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -645,7 +650,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_7",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -660,7 +665,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_8",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -675,7 +680,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_9",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -690,7 +695,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_10",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -705,7 +710,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_11",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -720,7 +725,7 @@
 			"description": "",
 			"name": "input_nom_prénom_10_12",
 			"label": "",
-			"placeHolder": "",
+			"placeHolder": "Nom et Prénom ou raison sociale",
 			"help": "",
 			"options": [],
 			"value": "",
@@ -751,23 +756,11 @@
 			},
 			"visibility": false
 		},
-		{
-			"id": "input_cacher_11",
-			"type": "checkbox",
-			"description": "",
-			"name": "",
-			"label": "personne(s) présente(s)",
-			"placeHolder": "",
-			"help": "il peut s’agir du nouveau gérant",
-			"options": [],
-			"value": "",
-			"bookmarkIdPerValue": {
-				"false": ["cacher_cacher_2", "cacher_cacher_3", "cacher_cacher_4", "cacher_cacher_5", "cacher_cacher_6", "cacher_cacher_7"],
-				"true": []
-			},
-			"visibility": true
-		},
-
+		{"id": "input_cacher_11","type": "radio","description": "","name": "input_cacher_11_non","label": "Oui", "placeHolder": "","help": "il peut s’agir du nouveau gérant","options": [],"value": "false",
+      "bookmarkIdPerValue": {"false": []},"visibility": true},
+	
+	{"id": "input_cacher_11_non","type": "radio","description": "","name": "input_cacher_11_non","label": "Non", "placeHolder": "","help": "","options": [],"value": "true",
+      "bookmarkIdPerValue": {"true": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"]},"visibility": true},
 		{
 			"id": "input_nom_prenom_11_1",
 			"type": "text",
@@ -923,44 +916,6 @@
 			"visibility": true
 		},
 
-
-		{
-			"id": "input_question_12_oui",
-			"type": "radio",
-			"description": "",
-			"name": "input_question_12_non",
-			"label": "oui",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "true",
-			"bookmarkIdPerValue": {
-				
-				"true": ["bookmark_question_12_non"]
-
-			},
-			"visibility": true
-		},
-		{
-			"id": "input_question_12_non",
-			"type": "radio",
-			"description": "",
-			"name": "input_question_12_non",
-			"label": "Non",
-			"placeHolder": "",
-			"help": "",
-			"options": [],
-			"value": "false",
-			"bookmarkIdPerValue": {
-				"false": ["bookmark_question_12_oui"]
-				
-
-			},
-			"visibility": true
-		},
-
-
-		
 		{
 			"id": "input_nom_prenom_du_ancien_gerant",
 			"type": "text",
@@ -1618,40 +1573,6 @@
 			"fontSize": 10
 		},
 
-		{
-			"bookmarkId": "bookmark_question_12_oui",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "PARAGRAPH_WITH_BOOKMARKS",
-			"fontSize": 11
-		},
-
-		{
-			"bookmarkId": "bookmark_question_12_non",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "PARAGRAPH_WITH_BOOKMARKS",
-			"fontSize": 11
-		},
-		{
-			"bookmarkId": "nom_prenom_ancien_gerant",
-			"value": "",
-			"fontFamily": "Times New Roman",
-			"color": null,
-			"bold": true,
-			"italic": false,
-			"capitalized": false,
-			"type": "USER_INPUT",
-			"fontSize": 12
-		},
 		{
 			"bookmarkId": "nom_prenom_nouveau_gerant",
 			"value": "",

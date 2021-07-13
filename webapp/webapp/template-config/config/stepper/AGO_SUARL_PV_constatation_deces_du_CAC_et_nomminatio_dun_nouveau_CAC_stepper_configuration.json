@@ -1,5 +1,13 @@
 {
   "steps": [
+  
+  {
+      "id": "step_informations_sur_societe",
+      "title": "Informations sur la société",
+      "description": "",
+      "blocs": ["bloc_details_societe"],
+      "visibility": true
+    },
   {
       "id": "step_informations_sur_lassemble",
       "title": "Informations sur l'assemblée",
@@ -23,7 +31,21 @@
   "blocs": [
   
 
-  
+  {
+      "id": "bloc_details_societe",
+      "title": "",
+      "description": "",
+      "inputs": [
+	    "input_denomination_sociale",
+		"input_siege_social",
+        "input_capital_sociale_en_dinars",
+		"input_identifiant_unique"
+		
+		
+		
+		],
+      "visibility": true
+    },
  
   
   {
@@ -31,10 +53,7 @@
       "title": "",
       "description": "",
       "inputs": [
-	    "input_denomination_sociale",
-		"input_siege_social",
-		"input_capital_sociale_en_dinars",
-		"input_identifiant_unique",
+	    
 		"input_date_reunion_de_lassemble",
 		"input_heure_debut_reuiion_lassemble",
 		"input_heure_fin_reuiion_lassemble",
@@ -42,7 +61,7 @@
       "visibility": true
     },
 	
-  {"id": "bloc_cacher_11","title": "","description": "","inputs": ["input_cacher_11"],"visibility": true},
+  {"id": "bloc_cacher_11","title": "Est-ce qu’il y’a d’autres personnes que vous souhaitez mentionner dans le PV ?","description": "","inputs": ["input_cacher_11","input_cacher_11_non"],"visibility": true},
   {"id": "bloc_question_11","title": "","description": "","inputs": ["input_question_11"],"visibility": true},
   {"id": "bloc_question_11_1","title": "","description": "","inputs": ["input_nom_prénom_11_1","input_qestion_11_1"],"visibility": false},
   {"id": "bloc_question_11_2","title": "","description": "","inputs": ["input_nom_prénom_11_2","input_qestion_11_2"],"visibility": false},
@@ -125,8 +144,38 @@
   "help": "","options": ["0","1","2", "3", "4", "5"],"value": "",
   "bookmarkIdPerValue": {"0":["autre_per_2"],"1":["autre_per_2"], "2": ["autre_per_2"],"3": ["autre_per_2"],"4": ["autre_per_2"],"5": ["autre_per_2"]},"visibility": false},
 						   
-	{"id": "input_cacher_11","type": "checkbox","description": "","name": "","label": "Autre(s) personne(s) présente(s)?", "placeHolder": "","help": "il peut s’agir du nouveau gérant","options": [],"value": "",
-      "bookmarkIdPerValue": {"false": ["cacher_cacher_2","cacher_cacher_3","cacher_cacher_4","cacher_cacher_5","cacher_cacher_6","cacher_cacher_7"],"true": []},"visibility": true},
+{
+			"id": "input_cacher_11",
+			"type": "radio",
+			"description": "",
+			"name": "input_cacher_11_non",
+			"label": "Oui",
+			"placeHolder": "",
+			"help": "il peut s’agir du nouveau gérant",
+			"options": [],
+			"value": "false",
+			"bookmarkIdPerValue": {
+				"false": []
+				
+			},
+			"visibility": true
+		},
+		{
+			"id": "input_cacher_11_non",
+			"type": "radio",
+			"description": "",
+			"name": "input_cacher_11_non",
+			"label": "Non",
+			"placeHolder": "",
+			"help": "",
+			"options": [],
+			"value": "true",
+			"bookmarkIdPerValue": {
+				"true": ["cacher_cacher_2", "cacher_cacher_3", "cacher_cacher_4", "cacher_cacher_5", "cacher_cacher_6", "cacher_cacher_7"]
+				
+			},
+			"visibility": true
+		},
 	 
     {"id": "input_denomination_sociale","type": "text","description": "","name": "input_denomination_sociale","label": "Dénomination Sociale","placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": { "text": ["denomination_sociale","denomination_sociale_1"]},"visibility": true},
 	{"id": "input_capital_sociale_en_dinars", "type": "text", "description": "", "name": "input_capital_sociale_en_dinars", "label": "Capital social en Dinars", "placeHolder": "","help": "","options": [],"value": "","bookmarkIdPerValue": {  "text": ["capital_sociale_en_dinars","capital_sociale_en_dinars_1"]},"visibility": true},
